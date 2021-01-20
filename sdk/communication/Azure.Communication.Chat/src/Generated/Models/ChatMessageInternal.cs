@@ -19,9 +19,8 @@ namespace Azure.Communication.Chat
         /// <param name="sequenceId"> Sequence of the chat message in the conversation. </param>
         /// <param name="version"> Version of the chat message. </param>
         /// <param name="createdOn"> The timestamp when the chat message arrived at the server. The timestamp is in RFC3339 format: `yyyy-MM-ddTHH:mm:ssZ`. </param>
-        /// <param name="senderId"> The id of the chat message sender. </param>
-        /// <exception cref="ArgumentNullException"> <paramref name="id"/>, <paramref name="sequenceId"/>, <paramref name="version"/>, or <paramref name="senderId"/> is null. </exception>
-        internal ChatMessageInternal(string id, ChatMessageType type, ChatMessagePriority priority, string sequenceId, string version, DateTimeOffset createdOn, string senderId)
+        /// <exception cref="ArgumentNullException"> <paramref name="id"/>, <paramref name="sequenceId"/>, or <paramref name="version"/> is null. </exception>
+        internal ChatMessageInternal(string id, ChatMessageType type, ChatMessagePriority priority, string sequenceId, string version, DateTimeOffset createdOn)
         {
             if (id == null)
             {
@@ -35,10 +34,6 @@ namespace Azure.Communication.Chat
             {
                 throw new ArgumentNullException(nameof(version));
             }
-            if (senderId == null)
-            {
-                throw new ArgumentNullException(nameof(senderId));
-            }
 
             Id = id;
             Type = type;
@@ -46,7 +41,6 @@ namespace Azure.Communication.Chat
             SequenceId = sequenceId;
             Version = version;
             CreatedOn = createdOn;
-            SenderId = senderId;
         }
 
         /// <summary> Initializes a new instance of ChatMessageInternal. </summary>

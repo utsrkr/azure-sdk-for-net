@@ -23,7 +23,7 @@ namespace Azure.Communication.Chat
             Optional<ChatMessageContentInternal> content = default;
             Optional<string> senderDisplayName = default;
             DateTimeOffset createdOn = default;
-            string senderId = default;
+            Optional<string> senderId = default;
             Optional<DateTimeOffset> deletedOn = default;
             Optional<DateTimeOffset> editedOn = default;
             foreach (var property in element.EnumerateObject())
@@ -99,7 +99,7 @@ namespace Azure.Communication.Chat
                     continue;
                 }
             }
-            return new ChatMessageInternal(id, type, priority, sequenceId, version, content.Value, senderDisplayName.Value, createdOn, senderId, Optional.ToNullable(deletedOn), Optional.ToNullable(editedOn));
+            return new ChatMessageInternal(id, type, priority, sequenceId, version, content.Value, senderDisplayName.Value, createdOn, senderId.Value, Optional.ToNullable(deletedOn), Optional.ToNullable(editedOn));
         }
     }
 }

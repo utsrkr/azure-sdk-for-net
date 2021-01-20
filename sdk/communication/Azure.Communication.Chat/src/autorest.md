@@ -16,7 +16,7 @@ IMPORTANT: Update input-file to reviewed version before merging to master
 
 ``` yaml
 input-file:
-    -  Swaggers/INT-swagger.json
+    -  https://raw.githubusercontent.com/Azure/azure-rest-api-specs/bdcd423af3bee3ca6175efebb9bc527b794d136e/specification/communication/data-plane/Microsoft.CommunicationServicesChat/preview/2020-11-01-preview3/communicationserviceschat.json
 payload-flattening-threshold: 10
 directive:
   from: swagger-document
