@@ -15,7 +15,7 @@ namespace Azure.ResourceManager.EdgeOrderPartner.Models
         internal static ManagementResourceData DeserializeManagementResourceData(JsonElement element)
         {
             Optional<string> armId = default;
-            Optional<string> tenantId = default;
+            Optional<string> managementResourceTenantId = default;
             foreach (var property in element.EnumerateObject())
             {
                 if (property.NameEquals("armId"))
@@ -23,13 +23,13 @@ namespace Azure.ResourceManager.EdgeOrderPartner.Models
                     armId = property.Value.GetString();
                     continue;
                 }
-                if (property.NameEquals("tenantId"))
+                if (property.NameEquals("managementResourceTenantId"))
                 {
-                    tenantId = property.Value.GetString();
+                    managementResourceTenantId = property.Value.GetString();
                     continue;
                 }
             }
-            return new ManagementResourceData(armId.Value, tenantId.Value);
+            return new ManagementResourceData(armId.Value, managementResourceTenantId.Value);
         }
     }
 }

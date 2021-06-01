@@ -17,16 +17,16 @@ namespace Azure.ResourceManager.EdgeOrderPartner.Models
 
         /// <summary> Initializes a new instance of ManagementResourceData. </summary>
         /// <param name="armId"> Arm ID of management resource associated with inventory. </param>
-        /// <param name="tenantId"> Tenant ID of management resource associated with inventory. </param>
-        internal ManagementResourceData(string armId, string tenantId)
+        /// <param name="managementResourceTenantId"> Tenant ID of management resource associated with inventory. </param>
+        internal ManagementResourceData(string armId, string managementResourceTenantId)
         {
             ArmId = armId;
-            TenantId = tenantId;
+            ManagementResourceTenantId = managementResourceTenantId;
         }
 
         /// <summary> Arm ID of management resource associated with inventory. </summary>
         public string ArmId { get; }
         /// <summary> Tenant ID of management resource associated with inventory. </summary>
-        public string TenantId { get; }
+        public string ManagementResourceTenantId { get; }
     }
 }
