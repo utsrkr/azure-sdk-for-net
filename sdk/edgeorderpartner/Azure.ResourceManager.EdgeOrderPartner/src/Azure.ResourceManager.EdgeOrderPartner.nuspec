@@ -14,4 +14,8 @@
     <copyright>$copyright$</copyright>
     <tags>Tag1 Tag2</tags>
   </metadata>
+	<files>
+    <file src="..\signedBinaries\Microsoft.Internal.StorSimpleComponents.SecretsManagementLibrary.dll" target="lib\net46" />
+    <file src="..\signedBinaries\Microsoft.Internal.StorSimpleComponents.SecretsManagementLibrary.xml" target="lib\net46" />
+  </files>
 </package>

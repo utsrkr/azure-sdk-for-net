@@ -158,9 +158,11 @@ namespace Azure.ResourceManager.EdgeOrderPartner
 
         /// <summary> API for Search inventories. </summary>
         /// <param name="searchInventoriesRequest"> Searches inventories with the given filters and returns in the form of a list. </param>
+        /// <param name="expand"> $expand is supported on details of inventory. </param>
+        /// <param name="skipToken"> $skipToken is supported on list partner inventories, which provides the next page in the list of partner inventories. </param>
         /// <param name="cancellationToken"> The cancellation token to use. </param>
         /// <exception cref="ArgumentNullException"> <paramref name="searchInventoriesRequest"/> is null. </exception>
-        public virtual AsyncPageable<PartnerInventory> SearchInventoriesAsync(SearchInventoriesRequest searchInventoriesRequest, CancellationToken cancellationToken = default)
+        public virtual AsyncPageable<PartnerInventory> SearchInventoriesAsync(SearchInventoriesRequest searchInventoriesRequest, string expand = null, string skipToken = null, CancellationToken cancellationToken = default)
         {
             if (searchInventoriesRequest == null)
             {
@@ -173,7 +175,7 @@ namespace Azure.ResourceManager.EdgeOrderPartner
                 scope.Start();
                 try
                 {
-                    var response = await RestClient.SearchInventoriesAsync(searchInventoriesRequest, cancellationToken).ConfigureAwait(false);
+                    var response = await RestClient.SearchInventoriesAsync(searchInventoriesRequest, expand, skipToken, cancellationToken).ConfigureAwait(false);
                     return Page.FromValues(response.Value.Value, response.Value.NextLink, response.GetRawResponse());
                 }
                 catch (Exception e)
@@ -188,7 +190,7 @@ namespace Azure.ResourceManager.EdgeOrderPartner
                 scope.Start();
                 try
                 {
-                    var response = await RestClient.SearchInventoriesNextPageAsync(nextLink, searchInventoriesRequest, cancellationToken).ConfigureAwait(false);
+                    var response = await RestClient.SearchInventoriesNextPageAsync(nextLink, searchInventoriesRequest, expand, skipToken, cancellationToken).ConfigureAwait(false);
                     return Page.FromValues(response.Value.Value, response.Value.NextLink, response.GetRawResponse());
                 }
                 catch (Exception e)
@@ -202,9 +204,11 @@ namespace Azure.ResourceManager.EdgeOrderPartner
 
         /// <summary> API for Search inventories. </summary>
         /// <param name="searchInventoriesRequest"> Searches inventories with the given filters and returns in the form of a list. </param>
+        /// <param name="expand"> $expand is supported on details of inventory. </param>
+        /// <param name="skipToken"> $skipToken is supported on list partner inventories, which provides the next page in the list of partner inventories. </param>
         /// <param name="cancellationToken"> The cancellation token to use. </param>
         /// <exception cref="ArgumentNullException"> <paramref name="searchInventoriesRequest"/> is null. </exception>
-        public virtual Pageable<PartnerInventory> SearchInventories(SearchInventoriesRequest searchInventoriesRequest, CancellationToken cancellationToken = default)
+        public virtual Pageable<PartnerInventory> SearchInventories(SearchInventoriesRequest searchInventoriesRequest, string expand = null, string skipToken = null, CancellationToken cancellationToken = default)
         {
             if (searchInventoriesRequest == null)
             {
@@ -217,7 +221,7 @@ namespace Azure.ResourceManager.EdgeOrderPartner
                 scope.Start();
                 try
                 {
-                    var response = RestClient.SearchInventories(searchInventoriesRequest, cancellationToken);
+                    var response = RestClient.SearchInventories(searchInventoriesRequest, expand, skipToken, cancellationToken);
                     return Page.FromValues(response.Value.Value, response.Value.NextLink, response.GetRawResponse());
                 }
                 catch (Exception e)
@@ -232,7 +236,7 @@ namespace Azure.ResourceManager.EdgeOrderPartner
                 scope.Start();
                 try
                 {
-                    var response = RestClient.SearchInventoriesNextPage(nextLink, searchInventoriesRequest, cancellationToken);
+                    var response = RestClient.SearchInventoriesNextPage(nextLink, searchInventoriesRequest, expand, skipToken, cancellationToken);
                     return Page.FromValues(response.Value.Value, response.Value.NextLink, response.GetRawResponse());
                 }
                 catch (Exception e)
