@@ -8,7 +8,7 @@
 namespace Azure.ResourceManager.EdgeOrderPartner.Models
 {
     /// <summary> Stage status. </summary>
-    internal enum StageStatus
+    public enum StageStatus
     {
         /// <summary> No status available yet. </summary>
         None,

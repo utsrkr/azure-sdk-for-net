@@ -18,19 +18,19 @@ namespace Azure.ResourceManager.EdgeOrderPartner.Models
         /// <summary> Initializes a new instance of InventoryData. </summary>
         /// <param name="status"> Inventory status. </param>
         /// <param name="location"> Inventory location. </param>
-        /// <param name="inventoryRestrictions"> Enum to indicate any kind of restrictions on inventory. </param>
-        internal InventoryData(string status, string location, InventoryRestrictions? inventoryRestrictions)
+        /// <param name="registrationAllowed"> Boolean flag to indicate if registration is allowed. </param>
+        internal InventoryData(string status, string location, bool? registrationAllowed)
         {
             Status = status;
             Location = location;
-            InventoryRestrictions = inventoryRestrictions;
+            RegistrationAllowed = registrationAllowed;
         }
 
         /// <summary> Inventory status. </summary>
         public string Status { get; }
         /// <summary> Inventory location. </summary>
         public string Location { get; }
-        /// <summary> Enum to indicate any kind of restrictions on inventory. </summary>
-        public InventoryRestrictions? InventoryRestrictions { get; }
+        /// <summary> Boolean flag to indicate if registration is allowed. </summary>
+        public bool? RegistrationAllowed { get; }
     }
 }

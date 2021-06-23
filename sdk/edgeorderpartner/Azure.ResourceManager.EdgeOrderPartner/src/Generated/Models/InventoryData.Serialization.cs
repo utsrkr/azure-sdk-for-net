@@ -16,7 +16,7 @@ namespace Azure.ResourceManager.EdgeOrderPartner.Models
         {
             Optional<string> status = default;
             Optional<string> location = default;
-            Optional<InventoryRestrictions> inventoryRestrictions = default;
+            Optional<bool> registrationAllowed = default;
             foreach (var property in element.EnumerateObject())
             {
                 if (property.NameEquals("status"))
@@ -29,18 +29,18 @@ namespace Azure.ResourceManager.EdgeOrderPartner.Models
                     location = property.Value.GetString();
                     continue;
                 }
-                if (property.NameEquals("inventoryRestrictions"))
+                if (property.NameEquals("registrationAllowed"))
                 {
                     if (property.Value.ValueKind == JsonValueKind.Null)
                     {
                         property.ThrowNonNullablePropertyIsNull();
                         continue;
                     }
-                    inventoryRestrictions = property.Value.GetString().ToInventoryRestrictions();
+                    registrationAllowed = property.Value.GetBoolean();
                     continue;
                 }
             }
-            return new InventoryData(status.Value, location.Value, Optional.ToNullable(inventoryRestrictions));
+            return new InventoryData(status.Value, location.Value, Optional.ToNullable(registrationAllowed));
         }
     }
 }

@@ -8,7 +8,7 @@
 namespace Azure.ResourceManager.EdgeOrderPartner.Models
 {
     /// <summary> Stage name. </summary>
-    internal enum StageName
+    public enum StageName
     {
         /// <summary> An order has been created. </summary>
         DeviceOrdered,

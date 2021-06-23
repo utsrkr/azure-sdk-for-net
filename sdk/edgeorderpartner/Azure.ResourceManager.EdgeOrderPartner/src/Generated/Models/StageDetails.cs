@@ -10,11 +10,24 @@ using System;
 namespace Azure.ResourceManager.EdgeOrderPartner.Models
 {
     /// <summary> Resource stage details. </summary>
-    internal partial class StageDetails
+    public partial class StageDetails
     {
         /// <summary> Initializes a new instance of StageDetails. </summary>
         internal StageDetails()
         {
+        }
+
+        /// <summary> Initializes a new instance of StageDetails. </summary>
+        /// <param name="stageStatus"> Stage status. </param>
+        /// <param name="stageName"> Stage name. </param>
+        /// <param name="displayName"> Display name of the resource stage. </param>
+        /// <param name="startTime"> Stage start time. </param>
+        internal StageDetails(StageStatus? stageStatus, StageName? stageName, string displayName, DateTimeOffset? startTime)
+        {
+            StageStatus = stageStatus;
+            StageName = stageName;
+            DisplayName = displayName;
+            StartTime = startTime;
         }
 
         /// <summary> Stage status. </summary>

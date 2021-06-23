@@ -8,11 +8,22 @@
 namespace Azure.ResourceManager.EdgeOrderPartner.Models
 {
     /// <summary> Contains subscription details. </summary>
-    internal partial class SubscriptionDetails
+    public partial class SubscriptionDetails
     {
         /// <summary> Initializes a new instance of SubscriptionDetails. </summary>
         internal SubscriptionDetails()
         {
+        }
+
+        /// <summary> Initializes a new instance of SubscriptionDetails. </summary>
+        /// <param name="id"> Subscription Id. </param>
+        /// <param name="state"> Subscription State. </param>
+        /// <param name="quotaId"> Subscription QuotaId. </param>
+        internal SubscriptionDetails(string id, string state, string quotaId)
+        {
+            Id = id;
+            State = state;
+            QuotaId = quotaId;
         }
 
         /// <summary> Subscription Id. </summary>

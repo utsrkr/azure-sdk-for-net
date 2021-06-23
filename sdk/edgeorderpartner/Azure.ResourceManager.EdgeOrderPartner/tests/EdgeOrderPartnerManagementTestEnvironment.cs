@@ -7,5 +7,6 @@ namespace Azure.ResourceManager.EdgeOrderPartner.Tests
 {
     public class EdgeOrderPartnerManagementTestEnvironment : TestEnvironment
     {
+        internal const string SubscriptionIdEnvironmentVariableName = "SUBSCRIPTION_ID";
     }
 }

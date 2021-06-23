@@ -5,9 +5,6 @@
 
 #nullable disable
 
-using System.Collections.Generic;
-using Azure.Core;
-
 namespace Azure.ResourceManager.EdgeOrderPartner.Models
 {
     /// <summary> Represents additional details about the partner inventory. </summary>
@@ -16,29 +13,32 @@ namespace Azure.ResourceManager.EdgeOrderPartner.Models
         /// <summary> Initializes a new instance of InventoryAdditionalDetails. </summary>
         internal InventoryAdditionalDetails()
         {
-            InventorySecrets = new ChangeTrackingDictionary<string, string>();
         }
 
         /// <summary> Initializes a new instance of InventoryAdditionalDetails. </summary>
+        /// <param name="orderItem"> Represents additional details about the order item. </param>
         /// <param name="inventoryMetadata"> Contains inventory metadata. </param>
         /// <param name="configuration"> Represents additional details about the configuration. </param>
         /// <param name="inventory"> Represents additional data about the inventory. </param>
-        /// <param name="inventorySecrets"> Represents secrets on the inventory. </param>
-        internal InventoryAdditionalDetails(string inventoryMetadata, ConfigurationDetails configuration, AdditionalInventoryDetails inventory, IReadOnlyDictionary<string, string> inventorySecrets)
+        /// <param name="billing"> Represents additional details about billing for the inventory. </param>
+        internal InventoryAdditionalDetails(AdditionalOrderItemDetails orderItem, string inventoryMetadata, ConfigurationDetails configuration, AdditionalInventoryDetails inventory, BillingDetails billing)
         {
+            OrderItem = orderItem;
             InventoryMetadata = inventoryMetadata;
             Configuration = configuration;
             Inventory = inventory;
-            InventorySecrets = inventorySecrets;
+            Billing = billing;
         }
 
+        /// <summary> Represents additional details about the order item. </summary>
+        public AdditionalOrderItemDetails OrderItem { get; }
         /// <summary> Contains inventory metadata. </summary>
         public string InventoryMetadata { get; }
         /// <summary> Represents additional details about the configuration. </summary>
         public ConfigurationDetails Configuration { get; }
         /// <summary> Represents additional data about the inventory. </summary>
         public AdditionalInventoryDetails Inventory { get; }
-        /// <summary> Represents secrets on the inventory. </summary>
-        public IReadOnlyDictionary<string, string> InventorySecrets { get; }
+        /// <summary> Represents additional details about billing for the inventory. </summary>
+        public BillingDetails Billing { get; }
     }
 }

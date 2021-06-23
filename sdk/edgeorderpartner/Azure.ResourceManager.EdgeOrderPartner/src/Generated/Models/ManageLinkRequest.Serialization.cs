@@ -19,8 +19,8 @@ namespace Azure.ResourceManager.EdgeOrderPartner.Models
             writer.WriteStringValue(ManagementResourceArmId);
             writer.WritePropertyName("operation");
             writer.WriteStringValue(Operation.ToSerialString());
-            writer.WritePropertyName("managementResourceTenantId");
-            writer.WriteStringValue(ManagementResourceTenantId);
+            writer.WritePropertyName("tenantId");
+            writer.WriteStringValue(TenantId);
             writer.WriteEndObject();
         }
     }

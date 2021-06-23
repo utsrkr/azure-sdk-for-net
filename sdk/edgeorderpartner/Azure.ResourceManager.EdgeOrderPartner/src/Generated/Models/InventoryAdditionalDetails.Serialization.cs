@@ -5,7 +5,6 @@
 
 #nullable disable
 
-using System.Collections.Generic;
 using System.Text.Json;
 using Azure.Core;
 
@@ -15,12 +14,23 @@ namespace Azure.ResourceManager.EdgeOrderPartner.Models
     {
         internal static InventoryAdditionalDetails DeserializeInventoryAdditionalDetails(JsonElement element)
         {
+            Optional<AdditionalOrderItemDetails> orderItem = default;
             Optional<string> inventoryMetadata = default;
             Optional<ConfigurationDetails> configuration = default;
             Optional<AdditionalInventoryDetails> inventory = default;
-            Optional<IReadOnlyDictionary<string, string>> inventorySecrets = default;
+            Optional<BillingDetails> billing = default;
             foreach (var property in element.EnumerateObject())
             {
+                if (property.NameEquals("orderItem"))
+                {
+                    if (property.Value.ValueKind == JsonValueKind.Null)
+                    {
+                        property.ThrowNonNullablePropertyIsNull();
+                        continue;
+                    }
+                    orderItem = AdditionalOrderItemDetails.DeserializeAdditionalOrderItemDetails(property.Value);
+                    continue;
+                }
                 if (property.NameEquals("inventoryMetadata"))
                 {
                     inventoryMetadata = property.Value.GetString();
@@ -46,23 +56,18 @@ namespace Azure.ResourceManager.EdgeOrderPartner.Models
                     inventory = AdditionalInventoryDetails.DeserializeAdditionalInventoryDetails(property.Value);
                     continue;
                 }
-                if (property.NameEquals("inventorySecrets"))
+                if (property.NameEquals("billing"))
                 {
                     if (property.Value.ValueKind == JsonValueKind.Null)
                     {
                         property.ThrowNonNullablePropertyIsNull();
                         continue;
                     }
-                    Dictionary<string, string> dictionary = new Dictionary<string, string>();
-                    foreach (var property0 in property.Value.EnumerateObject())
-                    {
-                        dictionary.Add(property0.Name, property0.Value.GetString());
-                    }
-                    inventorySecrets = dictionary;
+                    billing = BillingDetails.DeserializeBillingDetails(property.Value);
                     continue;
                 }
             }
-            return new InventoryAdditionalDetails(inventoryMetadata.Value, configuration.Value, inventory.Value, Optional.ToDictionary(inventorySecrets));
+            return new InventoryAdditionalDetails(orderItem.Value, inventoryMetadata.Value, configuration.Value, inventory.Value, billing.Value);
         }
     }
 }

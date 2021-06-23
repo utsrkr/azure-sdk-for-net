@@ -19,22 +19,22 @@ namespace Azure.ResourceManager.EdgeOrderPartner.Models
         /// For unlink operation, enter empty string.
         /// </param>
         /// <param name="operation"> Operation to be performed - Link, Unlink, Relink. </param>
-        /// <param name="managementResourceTenantId"> Tenant ID of management resource associated with inventory. </param>
-        /// <exception cref="ArgumentNullException"> <paramref name="managementResourceArmId"/> or <paramref name="managementResourceTenantId"/> is null. </exception>
-        public ManageLinkRequest(string managementResourceArmId, ManageLinkOperation operation, string managementResourceTenantId)
+        /// <param name="tenantId"> Tenant ID of management resource associated with inventory. </param>
+        /// <exception cref="ArgumentNullException"> <paramref name="managementResourceArmId"/> or <paramref name="tenantId"/> is null. </exception>
+        public ManageLinkRequest(string managementResourceArmId, ManageLinkOperation operation, string tenantId)
         {
             if (managementResourceArmId == null)
             {
                 throw new ArgumentNullException(nameof(managementResourceArmId));
             }
-            if (managementResourceTenantId == null)
+            if (tenantId == null)
             {
-                throw new ArgumentNullException(nameof(managementResourceTenantId));
+                throw new ArgumentNullException(nameof(tenantId));
             }
 
             ManagementResourceArmId = managementResourceArmId;
             Operation = operation;
-            ManagementResourceTenantId = managementResourceTenantId;
+            TenantId = tenantId;
         }
 
         /// <summary>
@@ -46,6 +46,6 @@ namespace Azure.ResourceManager.EdgeOrderPartner.Models
         /// <summary> Operation to be performed - Link, Unlink, Relink. </summary>
         public ManageLinkOperation Operation { get; }
         /// <summary> Tenant ID of management resource associated with inventory. </summary>
-        public string ManagementResourceTenantId { get; }
+        public string TenantId { get; }
     }
 }

@@ -17,12 +17,16 @@ namespace Azure.ResourceManager.EdgeOrderPartner.Models
 
         /// <summary> Initializes a new instance of OrderItemData. </summary>
         /// <param name="armId"> Arm ID of order item. </param>
-        internal OrderItemData(string armId)
+        /// <param name="orderItemType"> Order item type - purchase or rental. </param>
+        internal OrderItemData(string armId, OrderItemType? orderItemType)
         {
             ArmId = armId;
+            OrderItemType = orderItemType;
         }
 
         /// <summary> Arm ID of order item. </summary>
         public string ArmId { get; }
+        /// <summary> Order item type - purchase or rental. </summary>
+        public OrderItemType? OrderItemType { get; }
     }
 }

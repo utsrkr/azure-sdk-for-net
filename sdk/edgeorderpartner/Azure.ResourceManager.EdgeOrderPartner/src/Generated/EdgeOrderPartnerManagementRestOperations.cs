@@ -310,7 +310,7 @@ namespace Azure.ResourceManager.EdgeOrderPartner
             }
         }
 
-        internal HttpMessage CreateSearchInventoriesRequest(SearchInventoriesRequest searchInventoriesRequest, string expand, string skipToken)
+        internal HttpMessage CreateSearchInventoriesRequest(SearchInventoriesRequest searchInventoriesRequest)
         {
             var message = _pipeline.CreateMessage();
             var request = message.Request;
@@ -321,14 +321,6 @@ namespace Azure.ResourceManager.EdgeOrderPartner
             uri.AppendPath(subscriptionId, true);
             uri.AppendPath("/providers/Microsoft.EdgeOrderPartner/searchInventories", false);
             uri.AppendQuery("api-version", apiVersion, true);
-            if (expand != null)
-            {
-                uri.AppendQuery("$expand", expand, true);
-            }
-            if (skipToken != null)
-            {
-                uri.AppendQuery("$skipToken", skipToken, true);
-            }
             request.Uri = uri;
             request.Headers.Add("Accept", "application/json");
             request.Headers.Add("Content-Type", "application/json");
@@ -340,18 +332,16 @@ namespace Azure.ResourceManager.EdgeOrderPartner
 
         /// <summary> API for Search inventories. </summary>
         /// <param name="searchInventoriesRequest"> Searches inventories with the given filters and returns in the form of a list. </param>
-        /// <param name="expand"> $expand is supported on details of inventory. </param>
-        /// <param name="skipToken"> $skipToken is supported on list partner inventories, which provides the next page in the list of partner inventories. </param>
         /// <param name="cancellationToken"> The cancellation token to use. </param>
         /// <exception cref="ArgumentNullException"> <paramref name="searchInventoriesRequest"/> is null. </exception>
-        public async Task<Response<PartnerInventoryList>> SearchInventoriesAsync(SearchInventoriesRequest searchInventoriesRequest, string expand = null, string skipToken = null, CancellationToken cancellationToken = default)
+        public async Task<Response<PartnerInventoryList>> SearchInventoriesAsync(SearchInventoriesRequest searchInventoriesRequest, CancellationToken cancellationToken = default)
         {
             if (searchInventoriesRequest == null)
             {
                 throw new ArgumentNullException(nameof(searchInventoriesRequest));
             }
 
-            using var message = CreateSearchInventoriesRequest(searchInventoriesRequest, expand, skipToken);
+            using var message = CreateSearchInventoriesRequest(searchInventoriesRequest);
             await _pipeline.SendAsync(message, cancellationToken).ConfigureAwait(false);
             switch (message.Response.Status)
             {
@@ -369,18 +359,16 @@ namespace Azure.ResourceManager.EdgeOrderPartner
 
         /// <summary> API for Search inventories. </summary>
         /// <param name="searchInventoriesRequest"> Searches inventories with the given filters and returns in the form of a list. </param>
-        /// <param name="expand"> $expand is supported on details of inventory. </param>
-        /// <param name="skipToken"> $skipToken is supported on list partner inventories, which provides the next page in the list of partner inventories. </param>
         /// <param name="cancellationToken"> The cancellation token to use. </param>
         /// <exception cref="ArgumentNullException"> <paramref name="searchInventoriesRequest"/> is null. </exception>
-        public Response<PartnerInventoryList> SearchInventories(SearchInventoriesRequest searchInventoriesRequest, string expand = null, string skipToken = null, CancellationToken cancellationToken = default)
+        public Response<PartnerInventoryList> SearchInventories(SearchInventoriesRequest searchInventoriesRequest, CancellationToken cancellationToken = default)
         {
             if (searchInventoriesRequest == null)
             {
                 throw new ArgumentNullException(nameof(searchInventoriesRequest));
             }
 
-            using var message = CreateSearchInventoriesRequest(searchInventoriesRequest, expand, skipToken);
+            using var message = CreateSearchInventoriesRequest(searchInventoriesRequest);
             _pipeline.Send(message, cancellationToken);
             switch (message.Response.Status)
             {
@@ -463,7 +451,7 @@ namespace Azure.ResourceManager.EdgeOrderPartner
             }
         }
 
-        internal HttpMessage CreateSearchInventoriesNextPageRequest(string nextLink, SearchInventoriesRequest searchInventoriesRequest, string expand, string skipToken)
+        internal HttpMessage CreateSearchInventoriesNextPageRequest(string nextLink, SearchInventoriesRequest searchInventoriesRequest)
         {
             var message = _pipeline.CreateMessage();
             var request = message.Request;
@@ -479,11 +467,9 @@ namespace Azure.ResourceManager.EdgeOrderPartner
         /// <summary> API for Search inventories. </summary>
         /// <param name="nextLink"> The URL to the next page of results. </param>
         /// <param name="searchInventoriesRequest"> Searches inventories with the given filters and returns in the form of a list. </param>
-        /// <param name="expand"> $expand is supported on details of inventory. </param>
-        /// <param name="skipToken"> $skipToken is supported on list partner inventories, which provides the next page in the list of partner inventories. </param>
         /// <param name="cancellationToken"> The cancellation token to use. </param>
         /// <exception cref="ArgumentNullException"> <paramref name="nextLink"/> or <paramref name="searchInventoriesRequest"/> is null. </exception>
-        public async Task<Response<PartnerInventoryList>> SearchInventoriesNextPageAsync(string nextLink, SearchInventoriesRequest searchInventoriesRequest, string expand = null, string skipToken = null, CancellationToken cancellationToken = default)
+        public async Task<Response<PartnerInventoryList>> SearchInventoriesNextPageAsync(string nextLink, SearchInventoriesRequest searchInventoriesRequest, CancellationToken cancellationToken = default)
         {
             if (nextLink == null)
             {
@@ -494,7 +480,7 @@ namespace Azure.ResourceManager.EdgeOrderPartner
                 throw new ArgumentNullException(nameof(searchInventoriesRequest));
             }
 
-            using var message = CreateSearchInventoriesNextPageRequest(nextLink, searchInventoriesRequest, expand, skipToken);
+            using var message = CreateSearchInventoriesNextPageRequest(nextLink, searchInventoriesRequest);
             await _pipeline.SendAsync(message, cancellationToken).ConfigureAwait(false);
             switch (message.Response.Status)
             {
@@ -513,11 +499,9 @@ namespace Azure.ResourceManager.EdgeOrderPartner
         /// <summary> API for Search inventories. </summary>
         /// <param name="nextLink"> The URL to the next page of results. </param>
         /// <param name="searchInventoriesRequest"> Searches inventories with the given filters and returns in the form of a list. </param>
-        /// <param name="expand"> $expand is supported on details of inventory. </param>
-        /// <param name="skipToken"> $skipToken is supported on list partner inventories, which provides the next page in the list of partner inventories. </param>
         /// <param name="cancellationToken"> The cancellation token to use. </param>
         /// <exception cref="ArgumentNullException"> <paramref name="nextLink"/> or <paramref name="searchInventoriesRequest"/> is null. </exception>
-        public Response<PartnerInventoryList> SearchInventoriesNextPage(string nextLink, SearchInventoriesRequest searchInventoriesRequest, string expand = null, string skipToken = null, CancellationToken cancellationToken = default)
+        public Response<PartnerInventoryList> SearchInventoriesNextPage(string nextLink, SearchInventoriesRequest searchInventoriesRequest, CancellationToken cancellationToken = default)
         {
             if (nextLink == null)
             {
@@ -528,7 +512,7 @@ namespace Azure.ResourceManager.EdgeOrderPartner
                 throw new ArgumentNullException(nameof(searchInventoriesRequest));
             }
 
-            using var message = CreateSearchInventoriesNextPageRequest(nextLink, searchInventoriesRequest, expand, skipToken);
+            using var message = CreateSearchInventoriesNextPageRequest(nextLink, searchInventoriesRequest);
             _pipeline.Send(message, cancellationToken);
             switch (message.Response.Status)
             {

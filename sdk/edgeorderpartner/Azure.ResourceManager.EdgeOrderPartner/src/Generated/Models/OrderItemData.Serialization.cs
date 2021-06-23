@@ -15,6 +15,7 @@ namespace Azure.ResourceManager.EdgeOrderPartner.Models
         internal static OrderItemData DeserializeOrderItemData(JsonElement element)
         {
             Optional<string> armId = default;
+            Optional<OrderItemType> orderItemType = default;
             foreach (var property in element.EnumerateObject())
             {
                 if (property.NameEquals("armId"))
@@ -22,8 +23,18 @@ namespace Azure.ResourceManager.EdgeOrderPartner.Models
                     armId = property.Value.GetString();
                     continue;
                 }
+                if (property.NameEquals("orderItemType"))
+                {
+                    if (property.Value.ValueKind == JsonValueKind.Null)
+                    {
+                        property.ThrowNonNullablePropertyIsNull();
+                        continue;
+                    }
+                    orderItemType = property.Value.GetString().ToOrderItemType();
+                    continue;
+                }
             }
-            return new OrderItemData(armId.Value);
+            return new OrderItemData(armId.Value, Optional.ToNullable(orderItemType));
         }
     }
 }
