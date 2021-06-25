@@ -64,6 +64,7 @@ pr:
     - sdk/datalake-analytics/Microsoft.Azure.Management.DataLake.Analytics
     - sdk/datalake-store/Microsoft.Azure.Management.DataLake.Store
     - sdk/datamigration/Microsoft.Azure.Management.DataMigration
+    - sdk/dataprotection/Microsoft.Azure.Management.DataProtection
     - sdk/datashare/Microsoft.Azure.Management.DataShare
     - sdk/deploymentmanager/Microsoft.Azure.Management.DeploymentManager
     - sdk/deviceprovisioningservices/Microsoft.Azure.Management.DeviceProvisioningServices
@@ -73,6 +74,7 @@ pr:
     - sdk/digitaltwins/Microsoft.Azure.Management.DigitalTwins
     - sdk/dns/Microsoft.Azure.Management.Dns
     - sdk/edgegateway/Microsoft.Azure.Management.EdgeGateway
+    - sdk/edgeorder/Azure.ResourceManager.EdgeOrder
     - sdk/elastic/Microsoft.Azure.Management.Elastic
     - sdk/eng/mgmt
     - sdk/eventgrid/Microsoft.Azure.Management.EventGrid
