@@ -1,0 +1,80 @@
+{
+  "Entries": [
+    {
+      "RequestUri": "https://management.azure.com/providers/Microsoft.EdgeOrderPartner/operations?api-version=2020-12-01-preview",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-9a7c5ef6d767bc48913ab5bca9ce76c9-aae92fda5dafa847-00",
+        "User-Agent": "azsdk-net-ResourceManager.EdgeOrderPartner/1.0.0-alpha.20210625.1 (.NET Framework 4.8.4300.0; Microsoft Windows 10.0.19043 )",
+        "x-ms-client-request-id": "5c82d7476ff95141419d22b7d862427d",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Cache-Control": "no-cache",
+        "Content-Length": "857",
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Fri, 25 Jun 2021 10:18:54 GMT",
+        "Expires": "-1",
+        "Pragma": "no-cache",
+        "Server": "Kestrel",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "X-Content-Type-Options": "nosniff",
+        "x-ms-client-request-id": "5c82d7476ff95141419d22b7d862427d",
+        "x-ms-correlation-request-id": "b94804a6-3a2a-453f-84f3-30e2b300a6a4",
+        "x-ms-ratelimit-remaining-tenant-reads": "11999",
+        "x-ms-request-id": "b94804a6-3a2a-453f-84f3-30e2b300a6a4",
+        "x-ms-routing-request-id": "SOUTHINDIA:20210625T101855Z:b94804a6-3a2a-453f-84f3-30e2b300a6a4"
+      },
+      "ResponseBody": {
+        "value": [
+          {
+            "name": "Microsoft.EdgeOrderPartner/operations/read",
+            "display": {
+              "provider": "Edge Ordering",
+              "resource": "Operations",
+              "operation": "List or Get Operations",
+              "description": "List or get the Operations"
+            },
+            "origin": "user",
+            "isDataAction": false
+          },
+          {
+            "name": "Microsoft.EdgeOrderPartner/searchInventories/action",
+            "display": {
+              "provider": "Edge Ordering",
+              "resource": "ArmApiRes_Microsoft.EdgeOrderPartner"
+            },
+            "origin": "user",
+            "isDataAction": false
+          },
+          {
+            "name": "Microsoft.EdgeOrderPartner/locations/productFamilies/inventories/manageLink/action",
+            "display": {
+              "provider": "Edge Ordering",
+              "resource": "ArmApiRes_inventories"
+            },
+            "origin": "user",
+            "isDataAction": false
+          },
+          {
+            "name": "Microsoft.EdgeOrderPartner/locations/productFamilies/inventories/manageInventoryMetadata/action",
+            "display": {
+              "provider": "Edge Ordering",
+              "resource": "ArmApiRes_inventories"
+            },
+            "origin": "user",
+            "isDataAction": false
+          }
+        ]
+      }
+    }
+  ],
+  "Variables": {
+    "RandomSeed": "982311511",
+    "SUBSCRIPTION_ID": "sanitized"
+  }
+}
