@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="$(RepoEngPath)/mgmt/AzSdk.test.reference.props" />
+  <PropertyGroup>
+    <PackageId>EdgeOrder.Tests</PackageId>
+    <Description>EdgeOrder.Tests class library</Description>
+    <AssemblyName>EdgeOrder.Tests</AssemblyName>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp2.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\src\Microsoft.Azure.Management.EdgeOrder.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="SessionRecords\**\*.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

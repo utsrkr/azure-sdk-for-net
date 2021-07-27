@@ -1,0 +1,2972 @@
+{
+  "Entries": [
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourcegroups/SdkRg6545?api-version=2015-11-01",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Jlc291cmNlZ3JvdXBzL1Nka1JnNjU0NT9hcGktdmVyc2lvbj0yMDE1LTExLTAx",
+      "RequestMethod": "PUT",
+      "RequestBody": "{\r\n  \"location\": \"eastus\"\r\n}",
+      "RequestHeaders": {
+        "x-ms-client-request-id": [
+          "846f0806-cab2-4e3f-b372-63c9a24179ed"
+        ],
+        "Accept-Language": [
+          "en-US"
+        ],
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.Resources.ResourceManagementClient/1.0.0.0"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Content-Length": [
+          "28"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "x-ms-ratelimit-remaining-subscription-writes": [
+          "1199"
+        ],
+        "x-ms-request-id": [
+          "90d042f9-7f95-4917-b3e4-d00f226efe2e"
+        ],
+        "x-ms-correlation-request-id": [
+          "90d042f9-7f95-4917-b3e4-d00f226efe2e"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134729Z:90d042f9-7f95-4917-b3e4-d00f226efe2e"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:47:29 GMT"
+        ],
+        "Content-Length": [
+          "171"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
+        ]
+      },
+      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg6545\",\r\n  \"name\": \"SdkRg6545\",\r\n  \"location\": \"eastus\",\r\n  \"properties\": {\r\n    \"provisioningState\": \"Succeeded\"\r\n  }\r\n}",
+      "StatusCode": 201
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg6545/providers/Microsoft.EdgeOrder/orderItems/SdkOrderItem7196?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Jlc291cmNlR3JvdXBzL1Nka1JnNjU0NS9wcm92aWRlcnMvTWljcm9zb2Z0LkVkZ2VPcmRlci9vcmRlckl0ZW1zL1Nka09yZGVySXRlbTcxOTY/YXBpLXZlcnNpb249MjAyMC0xMi0wMS1wcmV2aWV3",
+      "RequestMethod": "PUT",
+      "RequestBody": "{\r\n  \"properties\": {\r\n    \"orderItemDetails\": {\r\n      \"productDetails\": {\r\n        \"hierarchyInformation\": {\r\n          \"productFamilyName\": \"AzureStackEdge\",\r\n          \"productLineName\": \"AzureStackEdge\",\r\n          \"productName\": \"AzureStackEdgeGPU\",\r\n          \"configurationName\": \"EdgeP_Base\"\r\n        }\r\n      },\r\n      \"orderItemType\": \"Purchase\",\r\n      \"preferences\": {\r\n        \"transportPreferences\": {\r\n          \"preferredShipmentType\": \"MicrosoftManaged\"\r\n        }\r\n      }\r\n    },\r\n    \"addressDetails\": {\r\n      \"forwardAddress\": {\r\n        \"shippingAddress\": {\r\n          \"streetAddress1\": \"16 TOWNSEND ST\",\r\n          \"streetAddress2\": \"Unit 1\",\r\n          \"city\": \"San Francisco\",\r\n          \"stateOrProvince\": \"CA\",\r\n          \"country\": \"US\",\r\n          \"postalCode\": \"94107\",\r\n          \"companyName\": \"Microsoft\",\r\n          \"addressType\": \"Commercial\"\r\n        },\r\n        \"contactDetails\": {\r\n          \"contactName\": \"Public SDK Test\",\r\n          \"phone\": \"1234567890\",\r\n          \"phoneExtension\": \"1234\",\r\n          \"emailList\": [\r\n            \"testing@microsoft.com\"\r\n          ]\r\n        }\r\n      }\r\n    },\r\n    \"orderId\": \"/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg6545/providers/Microsoft.EdgeOrder/locations/eastus/orders/SdkOrderItem7196\"\r\n  },\r\n  \"location\": \"eastus\"\r\n}",
+      "RequestHeaders": {
+        "x-ms-client-request-id": [
+          "0f93459e-cb0e-4f4c-9ee4-aab0862f0a19"
+        ],
+        "Accept-Language": [
+          "en-US"
+        ],
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Content-Length": [
+          "1338"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/bd388075-3e6c-45d4-a8a3-df137335a282?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-writes": [
+          "1199"
+        ],
+        "x-ms-request-id": [
+          "7f60e796-839d-4cb5-8f6d-7e8abfccc614"
+        ],
+        "x-ms-correlation-request-id": [
+          "7f60e796-839d-4cb5-8f6d-7e8abfccc614"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134736Z:7f60e796-839d-4cb5-8f6d-7e8abfccc614"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:47:35 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/bd388075-3e6c-45d4-a8a3-df137335a282?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy9iZDM4ODA3NS0zZTZjLTQ1ZDQtYThhMy1kZjEzNzMzNWEyODI/YXBpLXZlcnNpb249MjAyMC0xMi0wMS1wcmV2aWV3",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg6545/providers/Microsoft.EdgeOrder/orderItems/SdkOrderItem7196?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11999"
+        ],
+        "x-ms-request-id": [
+          "29a284ce-fa85-4251-a8ee-77ca5567a5b8"
+        ],
+        "x-ms-correlation-request-id": [
+          "29a284ce-fa85-4251-a8ee-77ca5567a5b8"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134746Z:29a284ce-fa85-4251-a8ee-77ca5567a5b8"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:47:46 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg6545/providers/Microsoft.EdgeOrder/orderItems/SdkOrderItem7196?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Jlc291cmNlR3JvdXBzL1Nka1JnNjU0NS9wcm92aWRlcnMvTWljcm9zb2Z0LkVkZ2VPcmRlci9vcmRlckl0ZW1zL1Nka09yZGVySXRlbTcxOTY/YXBpLXZlcnNpb249MjAyMC0xMi0wMS1wcmV2aWV3",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11998"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-request-id": [
+          "3de81625-c111-4efd-8787-b3ccf3af8805"
+        ],
+        "x-ms-correlation-request-id": [
+          "3de81625-c111-4efd-8787-b3ccf3af8805"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134757Z:3de81625-c111-4efd-8787-b3ccf3af8805"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:47:57 GMT"
+        ],
+        "Content-Length": [
+          "3139"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
+        ]
+      },
+      "ResponseBody": "{\r\n  \"properties\": {\r\n    \"orderItemDetails\": {\r\n      \"productDetails\": {\r\n        \"displayInfo\": {\r\n          \"productFamilyDisplayName\": \"Azure Stack Edge\",\r\n          \"configurationDisplayName\": \"Azure Stack Edge Pro - 1 GPU\"\r\n        },\r\n        \"hierarchyInformation\": {\r\n          \"productFamilyName\": \"azurestackedge\",\r\n          \"productLineName\": \"azurestackedge\",\r\n          \"productName\": \"azurestackedgegpu\",\r\n          \"configurationName\": \"edgep_base\"\r\n        },\r\n        \"count\": 0\r\n      },\r\n      \"orderItemType\": \"Purchase\",\r\n      \"currentStage\": {\r\n        \"stageStatus\": \"Succeeded\",\r\n        \"stageName\": \"Placed\",\r\n        \"startTime\": \"2021-07-26T19:17:39.9036095+05:30\"\r\n      },\r\n      \"orderItemStageHistory\": [\r\n        {\r\n          \"stageStatus\": \"Succeeded\",\r\n          \"stageName\": \"Placed\",\r\n          \"startTime\": \"2021-07-26T19:17:39.9036095+05:30\"\r\n        },\r\n        {\r\n          \"stageStatus\": \"None\",\r\n          \"stageName\": \"Confirmed\"\r\n        },\r\n        {\r\n          \"stageStatus\": \"None\",\r\n          \"stageName\": \"ReadyToShip\"\r\n        },\r\n        {\r\n          \"stageStatus\": \"None\",\r\n          \"stageName\": \"Shipped\"\r\n        },\r\n        {\r\n          \"stageStatus\": \"None\",\r\n          \"stageName\": \"Delivered\"\r\n        },\r\n        {\r\n          \"stageStatus\": \"None\",\r\n          \"stageName\": \"InUse\"\r\n        }\r\n      ],\r\n      \"preferences\": {\r\n        \"transportPreferences\": {\r\n          \"preferredShipmentType\": \"MicrosoftManaged\"\r\n        }\r\n      },\r\n      \"notificationEmailList\": [],\r\n      \"cancellationStatus\": \"Cancellable\",\r\n      \"deletionStatus\": \"NotAllowed\",\r\n      \"returnStatus\": \"NotReturnable\"\r\n    },\r\n    \"addressDetails\": {\r\n      \"forwardAddress\": {\r\n        \"shippingAddress\": {\r\n          \"streetAddress1\": \"16 TOWNSEND ST\",\r\n          \"streetAddress2\": \"Unit 1\",\r\n          \"city\": \"San Francisco\",\r\n          \"stateOrProvince\": \"CA\",\r\n          \"country\": \"US\",\r\n          \"postalCode\": \"94107\",\r\n          \"companyName\": \"Microsoft\",\r\n          \"addressType\": \"Commercial\"\r\n        },\r\n        \"contactDetails\": {\r\n          \"contactName\": \"Public SDK Test\",\r\n          \"phone\": \"1234567890\",\r\n          \"phoneExtension\": \"1234\",\r\n          \"emailList\": [\r\n            \"testing@microsoft.com\"\r\n          ]\r\n        }\r\n      }\r\n    },\r\n    \"startTime\": \"2021-07-26T19:17:35.2666004+05:30\",\r\n    \"orderId\": \"/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg6545/providers/Microsoft.EdgeOrder/locations/eastus/orders/SdkOrderItem7196\"\r\n  },\r\n  \"systemData\": {\r\n    \"createdBy\": \"46f005c6-af25-4659-b0ab-11c6f1fca4c2\",\r\n    \"createdByType\": \"Application\",\r\n    \"createdAt\": \"2021-07-26T19:17:34.4018634+05:30\",\r\n    \"lastModifiedBy\": \"46f005c6-af25-4659-b0ab-11c6f1fca4c2\",\r\n    \"lastModifiedByType\": \"Application\",\r\n    \"lastModifiedAt\": \"2021-07-26T19:17:34.4018634+05:30\"\r\n  },\r\n  \"location\": \"eastus\",\r\n  \"tags\": {},\r\n  \"name\": \"SdkOrderItem7196\",\r\n  \"id\": \"/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg6545/providers/Microsoft.EdgeOrder/orderItems/SdkOrderItem7196\",\r\n  \"type\": \"Microsoft.EdgeOrder/orderItems\"\r\n}",
+      "StatusCode": 200
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg6545/providers/Microsoft.EdgeOrder/orderItems/SdkOrderItem7196?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Jlc291cmNlR3JvdXBzL1Nka1JnNjU0NS9wcm92aWRlcnMvTWljcm9zb2Z0LkVkZ2VPcmRlci9vcmRlckl0ZW1zL1Nka09yZGVySXRlbTcxOTY/YXBpLXZlcnNpb249MjAyMC0xMi0wMS1wcmV2aWV3",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "x-ms-client-request-id": [
+          "c5bee633-cc0a-46d7-bc4c-4ec2a0f03298"
+        ],
+        "Accept-Language": [
+          "en-US"
+        ],
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11994"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-request-id": [
+          "69135a5e-9d2a-4e52-9856-d3ff6de30e01"
+        ],
+        "x-ms-correlation-request-id": [
+          "69135a5e-9d2a-4e52-9856-d3ff6de30e01"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134802Z:69135a5e-9d2a-4e52-9856-d3ff6de30e01"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:48:02 GMT"
+        ],
+        "Content-Length": [
+          "2893"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
+        ]
+      },
+      "ResponseBody": "{\r\n  \"properties\": {\r\n    \"orderItemDetails\": {\r\n      \"productDetails\": {\r\n        \"displayInfo\": {\r\n          \"productFamilyDisplayName\": \"Azure Stack Edge\",\r\n          \"configurationDisplayName\": \"Azure Stack Edge Pro - 1 GPU\"\r\n        },\r\n        \"hierarchyInformation\": {\r\n          \"productFamilyName\": \"azurestackedge\",\r\n          \"productLineName\": \"azurestackedge\",\r\n          \"productName\": \"azurestackedgegpu\",\r\n          \"configurationName\": \"edgep_base\"\r\n        },\r\n        \"count\": 0\r\n      },\r\n      \"orderItemType\": \"Purchase\",\r\n      \"currentStage\": {\r\n        \"stageStatus\": \"Succeeded\",\r\n        \"stageName\": \"Cancelled\",\r\n        \"startTime\": \"2021-07-26T19:18:01.1013043+05:30\"\r\n      },\r\n      \"orderItemStageHistory\": [\r\n        {\r\n          \"stageStatus\": \"Succeeded\",\r\n          \"stageName\": \"Placed\",\r\n          \"startTime\": \"2021-07-26T19:17:39.9036095+05:30\"\r\n        },\r\n        {\r\n          \"stageStatus\": \"Succeeded\",\r\n          \"stageName\": \"Cancelled\",\r\n          \"startTime\": \"2021-07-26T19:18:01.1013043+05:30\"\r\n        }\r\n      ],\r\n      \"preferences\": {\r\n        \"transportPreferences\": {\r\n          \"preferredShipmentType\": \"MicrosoftManaged\"\r\n        }\r\n      },\r\n      \"notificationEmailList\": [],\r\n      \"cancellationReason\": \"Order item cancelled\",\r\n      \"cancellationStatus\": \"NotCancellable\",\r\n      \"deletionStatus\": \"Allowed\",\r\n      \"returnStatus\": \"NotReturnable\"\r\n    },\r\n    \"addressDetails\": {\r\n      \"forwardAddress\": {\r\n        \"shippingAddress\": {\r\n          \"streetAddress1\": \"16 TOWNSEND ST\",\r\n          \"streetAddress2\": \"Unit 1\",\r\n          \"city\": \"San Francisco\",\r\n          \"stateOrProvince\": \"CA\",\r\n          \"country\": \"US\",\r\n          \"postalCode\": \"94107\",\r\n          \"companyName\": \"Microsoft\",\r\n          \"addressType\": \"Commercial\"\r\n        },\r\n        \"contactDetails\": {\r\n          \"contactName\": \"Public SDK Test\",\r\n          \"phone\": \"1234567890\",\r\n          \"phoneExtension\": \"1234\",\r\n          \"emailList\": [\r\n            \"testing@microsoft.com\"\r\n          ]\r\n        }\r\n      }\r\n    },\r\n    \"startTime\": \"2021-07-26T19:17:35.2666004+05:30\",\r\n    \"orderId\": \"/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg6545/providers/Microsoft.EdgeOrder/locations/eastus/orders/SdkOrderItem7196\"\r\n  },\r\n  \"systemData\": {\r\n    \"createdBy\": \"46f005c6-af25-4659-b0ab-11c6f1fca4c2\",\r\n    \"createdByType\": \"Application\",\r\n    \"createdAt\": \"2021-07-26T19:17:34.4018634+05:30\",\r\n    \"lastModifiedBy\": \"46f005c6-af25-4659-b0ab-11c6f1fca4c2\",\r\n    \"lastModifiedByType\": \"Application\",\r\n    \"lastModifiedAt\": \"2021-07-26T19:17:34.4018634+05:30\"\r\n  },\r\n  \"location\": \"eastus\",\r\n  \"tags\": {},\r\n  \"name\": \"SdkOrderItem7196\",\r\n  \"id\": \"/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg6545/providers/Microsoft.EdgeOrder/orderItems/SdkOrderItem7196\",\r\n  \"type\": \"Microsoft.EdgeOrder/orderItems\"\r\n}",
+      "StatusCode": 200
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg6545/providers/Microsoft.EdgeOrder/locations/eastus/orders/SdkOrderItem7196?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Jlc291cmNlR3JvdXBzL1Nka1JnNjU0NS9wcm92aWRlcnMvTWljcm9zb2Z0LkVkZ2VPcmRlci9sb2NhdGlvbnMvZWFzdHVzL29yZGVycy9TZGtPcmRlckl0ZW03MTk2P2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "x-ms-client-request-id": [
+          "eab5c3b9-7574-4039-ab09-12c8793020fc"
+        ],
+        "Accept-Language": [
+          "en-US"
+        ],
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11997"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-request-id": [
+          "85bb63c6-3c66-49ea-97fc-b54fd789c755"
+        ],
+        "x-ms-correlation-request-id": [
+          "85bb63c6-3c66-49ea-97fc-b54fd789c755"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134757Z:85bb63c6-3c66-49ea-97fc-b54fd789c755"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:47:57 GMT"
+        ],
+        "Content-Length": [
+          "851"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
+        ]
+      },
+      "ResponseBody": "{\r\n  \"properties\": {\r\n    \"orderItemIds\": [\r\n      \"/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg6545/providers/Microsoft.EdgeOrder/orderItems/SdkOrderItem7196\"\r\n    ],\r\n    \"currentStage\": {\r\n      \"stageStatus\": \"Succeeded\",\r\n      \"stageName\": \"Placed\",\r\n      \"startTime\": \"2021-07-26T19:17:39.9716969+05:30\"\r\n    },\r\n    \"orderStageHistory\": [\r\n      {\r\n        \"stageStatus\": \"Succeeded\",\r\n        \"stageName\": \"Placed\",\r\n        \"startTime\": \"2021-07-26T19:17:39.9716969+05:30\"\r\n      },\r\n      {\r\n        \"stageStatus\": \"None\",\r\n        \"stageName\": \"InReview\"\r\n      }\r\n    ]\r\n  },\r\n  \"name\": \"SdkOrderItem7196\",\r\n  \"id\": \"/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg6545/providers/Microsoft.EdgeOrder/locations/eastus/orders/SdkOrderItem7196\",\r\n  \"type\": \"Microsoft.EdgeOrder/orders\"\r\n}",
+      "StatusCode": 200
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/orders?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL29yZGVycz9hcGktdmVyc2lvbj0yMDIwLTEyLTAxLXByZXZpZXc=",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "x-ms-client-request-id": [
+          "a8b18abe-afe2-424a-b7ab-178a675f575d"
+        ],
+        "Accept-Language": [
+          "en-US"
+        ],
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "x-ms-original-request-ids": [
+          ""
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11996"
+        ],
+        "x-ms-request-id": [
+          "96d59dec-b478-43b2-b9f7-a3ebf9b1f81a"
+        ],
+        "x-ms-correlation-request-id": [
+          "96d59dec-b478-43b2-b9f7-a3ebf9b1f81a"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134759Z:96d59dec-b478-43b2-b9f7-a3ebf9b1f81a"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:47:59 GMT"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "19858"
+        ]
+      },
+      "ResponseBody": "{\r\n  \"value\": [\r\n    {\r\n      \"properties\": {\r\n        \"orderItemIds\": [\r\n          \"/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg6545/providers/Microsoft.EdgeOrder/orderItems/SdkOrderItem7196\"\r\n        ],\r\n        \"currentStage\": {\r\n          \"stageStatus\": \"Succeeded\",\r\n          \"stageName\": \"Placed\",\r\n          \"startTime\": \"2021-07-26T19:17:39.9716969+05:30\"\r\n        },\r\n        \"orderStageHistory\": [\r\n          {\r\n            \"stageStatus\": \"Succeeded\",\r\n            \"stageName\": \"Placed\",\r\n            \"startTime\": \"2021-07-26T19:17:39.9716969+05:30\"\r\n          },\r\n          {\r\n            \"stageStatus\": \"None\",\r\n            \"stageName\": \"InReview\"\r\n          }\r\n        ]\r\n      },\r\n      \"name\": \"SdkOrderItem7196\",\r\n      \"id\": \"/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg6545/providers/Microsoft.EdgeOrder/locations/eastus/orders/SdkOrderItem7196\",\r\n      \"type\": \"Microsoft.EdgeOrder/orders\"\r\n    }\r\n  ]\r\n}",
+      "StatusCode": 200
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg6545/providers/Microsoft.EdgeOrder/orders?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Jlc291cmNlR3JvdXBzL1Nka1JnNjU0NS9wcm92aWRlcnMvTWljcm9zb2Z0LkVkZ2VPcmRlci9vcmRlcnM/YXBpLXZlcnNpb249MjAyMC0xMi0wMS1wcmV2aWV3",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "x-ms-client-request-id": [
+          "89f50c4c-f7ca-4994-ac12-fb528887ce08"
+        ],
+        "Accept-Language": [
+          "en-US"
+        ],
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "x-ms-original-request-ids": [
+          ""
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11995"
+        ],
+        "x-ms-request-id": [
+          "4d7bf887-2c4a-499f-8e61-c5d8399107aa"
+        ],
+        "x-ms-correlation-request-id": [
+          "4d7bf887-2c4a-499f-8e61-c5d8399107aa"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134800Z:4d7bf887-2c4a-499f-8e61-c5d8399107aa"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:48:00 GMT"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "676"
+        ]
+      },
+      "ResponseBody": "{\r\n  \"value\": [\r\n    {\r\n      \"properties\": {\r\n        \"orderItemIds\": [\r\n          \"/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg6545/providers/Microsoft.EdgeOrder/orderItems/SdkOrderItem7196\"\r\n        ],\r\n        \"currentStage\": {\r\n          \"stageStatus\": \"Succeeded\",\r\n          \"stageName\": \"Placed\",\r\n          \"startTime\": \"2021-07-26T19:17:39.9716969+05:30\"\r\n        },\r\n        \"orderStageHistory\": [\r\n          {\r\n            \"stageStatus\": \"Succeeded\",\r\n            \"stageName\": \"Placed\",\r\n            \"startTime\": \"2021-07-26T19:17:39.9716969+05:30\"\r\n          },\r\n          {\r\n            \"stageStatus\": \"None\",\r\n            \"stageName\": \"InReview\"\r\n          }\r\n        ]\r\n      },\r\n      \"name\": \"SdkOrderItem7196\",\r\n      \"id\": \"/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg6545/providers/Microsoft.EdgeOrder/locations/eastus/orders/SdkOrderItem7196\",\r\n      \"type\": \"Microsoft.EdgeOrder/orders\"\r\n    }\r\n  ]\r\n}",
+      "StatusCode": 200
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg6545/providers/Microsoft.EdgeOrder/orderItems/SdkOrderItem7196/cancel?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Jlc291cmNlR3JvdXBzL1Nka1JnNjU0NS9wcm92aWRlcnMvTWljcm9zb2Z0LkVkZ2VPcmRlci9vcmRlckl0ZW1zL1Nka09yZGVySXRlbTcxOTYvY2FuY2VsP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "POST",
+      "RequestBody": "{\r\n  \"reason\": \"Order item cancelled\"\r\n}",
+      "RequestHeaders": {
+        "x-ms-client-request-id": [
+          "a6d19c22-da4e-4b6f-9c56-6c5a2e5609df"
+        ],
+        "Accept-Language": [
+          "en-US"
+        ],
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Content-Length": [
+          "40"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-writes": [
+          "1199"
+        ],
+        "x-ms-request-id": [
+          "2045f8cc-d6f8-4c2f-aeb7-e5e5dcede345"
+        ],
+        "x-ms-correlation-request-id": [
+          "2045f8cc-d6f8-4c2f-aeb7-e5e5dcede345"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134802Z:2045f8cc-d6f8-4c2f-aeb7-e5e5dcede345"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:48:02 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 204
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg6545/providers/Microsoft.EdgeOrder/orderItems/SdkOrderItem7196?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Jlc291cmNlR3JvdXBzL1Nka1JnNjU0NS9wcm92aWRlcnMvTWljcm9zb2Z0LkVkZ2VPcmRlci9vcmRlckl0ZW1zL1Nka09yZGVySXRlbTcxOTY/YXBpLXZlcnNpb249MjAyMC0xMi0wMS1wcmV2aWV3",
+      "RequestMethod": "DELETE",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "x-ms-client-request-id": [
+          "771cd65c-9d6f-4e34-ac4b-0c5349c7fb8b"
+        ],
+        "Accept-Language": [
+          "en-US"
+        ],
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-deletes": [
+          "14999"
+        ],
+        "x-ms-request-id": [
+          "987dae18-eb08-481b-877f-c2a0f15d16f2"
+        ],
+        "x-ms-correlation-request-id": [
+          "987dae18-eb08-481b-877f-c2a0f15d16f2"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134804Z:987dae18-eb08-481b-877f-c2a0f15d16f2"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:48:04 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11993"
+        ],
+        "x-ms-request-id": [
+          "da597722-10d5-44e2-a497-a386c7f4aa84"
+        ],
+        "x-ms-correlation-request-id": [
+          "da597722-10d5-44e2-a497-a386c7f4aa84"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134815Z:da597722-10d5-44e2-a497-a386c7f4aa84"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:48:15 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11992"
+        ],
+        "x-ms-request-id": [
+          "7b116fce-d96a-4eb9-8281-ab1ccc3c7d95"
+        ],
+        "x-ms-correlation-request-id": [
+          "7b116fce-d96a-4eb9-8281-ab1ccc3c7d95"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134825Z:7b116fce-d96a-4eb9-8281-ab1ccc3c7d95"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:48:25 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11991"
+        ],
+        "x-ms-request-id": [
+          "fc3334e2-c61a-40ad-bb20-09ad4bc87f67"
+        ],
+        "x-ms-correlation-request-id": [
+          "fc3334e2-c61a-40ad-bb20-09ad4bc87f67"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134836Z:fc3334e2-c61a-40ad-bb20-09ad4bc87f67"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:48:35 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11990"
+        ],
+        "x-ms-request-id": [
+          "a6d2da64-222e-49ec-ada8-8ad472834c98"
+        ],
+        "x-ms-correlation-request-id": [
+          "a6d2da64-222e-49ec-ada8-8ad472834c98"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134846Z:a6d2da64-222e-49ec-ada8-8ad472834c98"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:48:45 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11989"
+        ],
+        "x-ms-request-id": [
+          "a6979ac8-15a7-4238-935d-82e60e8ebf3e"
+        ],
+        "x-ms-correlation-request-id": [
+          "a6979ac8-15a7-4238-935d-82e60e8ebf3e"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134857Z:a6979ac8-15a7-4238-935d-82e60e8ebf3e"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:48:57 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11988"
+        ],
+        "x-ms-request-id": [
+          "d65a4759-2570-4593-b7f7-0fcfa7eb1f61"
+        ],
+        "x-ms-correlation-request-id": [
+          "d65a4759-2570-4593-b7f7-0fcfa7eb1f61"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134907Z:d65a4759-2570-4593-b7f7-0fcfa7eb1f61"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:49:07 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11987"
+        ],
+        "x-ms-request-id": [
+          "54040402-f1bb-4cbd-beba-9636d0b140df"
+        ],
+        "x-ms-correlation-request-id": [
+          "54040402-f1bb-4cbd-beba-9636d0b140df"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134918Z:54040402-f1bb-4cbd-beba-9636d0b140df"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:49:17 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11986"
+        ],
+        "x-ms-request-id": [
+          "755583b4-9a73-46e9-acbc-6e47365779a0"
+        ],
+        "x-ms-correlation-request-id": [
+          "755583b4-9a73-46e9-acbc-6e47365779a0"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134928Z:755583b4-9a73-46e9-acbc-6e47365779a0"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:49:27 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11985"
+        ],
+        "x-ms-request-id": [
+          "b14806ef-f376-4221-9509-f98dc9e26694"
+        ],
+        "x-ms-correlation-request-id": [
+          "b14806ef-f376-4221-9509-f98dc9e26694"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134939Z:b14806ef-f376-4221-9509-f98dc9e26694"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:49:38 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11984"
+        ],
+        "x-ms-request-id": [
+          "775a8892-4d5f-4776-b15b-7a116a11c292"
+        ],
+        "x-ms-correlation-request-id": [
+          "775a8892-4d5f-4776-b15b-7a116a11c292"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134949Z:775a8892-4d5f-4776-b15b-7a116a11c292"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:49:48 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11983"
+        ],
+        "x-ms-request-id": [
+          "b76dd690-a56a-4740-83b6-b07ed4751fad"
+        ],
+        "x-ms-correlation-request-id": [
+          "b76dd690-a56a-4740-83b6-b07ed4751fad"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134959Z:b76dd690-a56a-4740-83b6-b07ed4751fad"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:49:58 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11982"
+        ],
+        "x-ms-request-id": [
+          "ea0a26df-510d-4be9-84a2-67623df772b2"
+        ],
+        "x-ms-correlation-request-id": [
+          "ea0a26df-510d-4be9-84a2-67623df772b2"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135010Z:ea0a26df-510d-4be9-84a2-67623df772b2"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:50:10 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11981"
+        ],
+        "x-ms-request-id": [
+          "51f53b3c-118e-48ea-9e30-72c941adb032"
+        ],
+        "x-ms-correlation-request-id": [
+          "51f53b3c-118e-48ea-9e30-72c941adb032"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135020Z:51f53b3c-118e-48ea-9e30-72c941adb032"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:50:20 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11980"
+        ],
+        "x-ms-request-id": [
+          "34f06f99-adcd-407c-8800-f9ffc9702284"
+        ],
+        "x-ms-correlation-request-id": [
+          "34f06f99-adcd-407c-8800-f9ffc9702284"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135031Z:34f06f99-adcd-407c-8800-f9ffc9702284"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:50:30 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11979"
+        ],
+        "x-ms-request-id": [
+          "5455ae6b-7e72-44b8-b1cf-0768e752834f"
+        ],
+        "x-ms-correlation-request-id": [
+          "5455ae6b-7e72-44b8-b1cf-0768e752834f"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135041Z:5455ae6b-7e72-44b8-b1cf-0768e752834f"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:50:41 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11978"
+        ],
+        "x-ms-request-id": [
+          "6de346c6-fb03-45ca-9b22-fe747e417ddd"
+        ],
+        "x-ms-correlation-request-id": [
+          "6de346c6-fb03-45ca-9b22-fe747e417ddd"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135051Z:6de346c6-fb03-45ca-9b22-fe747e417ddd"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:50:51 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11977"
+        ],
+        "x-ms-request-id": [
+          "a2a39450-f95d-43f4-96c2-f43a95eff896"
+        ],
+        "x-ms-correlation-request-id": [
+          "a2a39450-f95d-43f4-96c2-f43a95eff896"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135102Z:a2a39450-f95d-43f4-96c2-f43a95eff896"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:51:01 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11976"
+        ],
+        "x-ms-request-id": [
+          "8f7ed640-be30-4eba-bfae-72b3b2b590da"
+        ],
+        "x-ms-correlation-request-id": [
+          "8f7ed640-be30-4eba-bfae-72b3b2b590da"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135112Z:8f7ed640-be30-4eba-bfae-72b3b2b590da"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:51:11 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11975"
+        ],
+        "x-ms-request-id": [
+          "a5699f9b-e702-4789-84af-e37aa05646ba"
+        ],
+        "x-ms-correlation-request-id": [
+          "a5699f9b-e702-4789-84af-e37aa05646ba"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135123Z:a5699f9b-e702-4789-84af-e37aa05646ba"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:51:23 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11974"
+        ],
+        "x-ms-request-id": [
+          "5a20d429-23ae-42f7-ac0e-0f7743815b20"
+        ],
+        "x-ms-correlation-request-id": [
+          "5a20d429-23ae-42f7-ac0e-0f7743815b20"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135133Z:5a20d429-23ae-42f7-ac0e-0f7743815b20"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:51:33 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11973"
+        ],
+        "x-ms-request-id": [
+          "4d816db7-3c00-4759-bbfa-390fc274ecea"
+        ],
+        "x-ms-correlation-request-id": [
+          "4d816db7-3c00-4759-bbfa-390fc274ecea"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135144Z:4d816db7-3c00-4759-bbfa-390fc274ecea"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:51:43 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11972"
+        ],
+        "x-ms-request-id": [
+          "ef769283-caa3-4733-8ccb-686f1a623301"
+        ],
+        "x-ms-correlation-request-id": [
+          "ef769283-caa3-4733-8ccb-686f1a623301"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135154Z:ef769283-caa3-4733-8ccb-686f1a623301"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:51:53 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11971"
+        ],
+        "x-ms-request-id": [
+          "5c756e8f-07c6-4668-9803-5a99f5db0e84"
+        ],
+        "x-ms-correlation-request-id": [
+          "5c756e8f-07c6-4668-9803-5a99f5db0e84"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135205Z:5c756e8f-07c6-4668-9803-5a99f5db0e84"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:52:04 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11970"
+        ],
+        "x-ms-request-id": [
+          "d90806f9-c961-408f-8af8-0034494ccc87"
+        ],
+        "x-ms-correlation-request-id": [
+          "d90806f9-c961-408f-8af8-0034494ccc87"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135215Z:d90806f9-c961-408f-8af8-0034494ccc87"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:52:14 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11969"
+        ],
+        "x-ms-request-id": [
+          "b3abd139-e3e4-4b2d-8654-19ce19c22512"
+        ],
+        "x-ms-correlation-request-id": [
+          "b3abd139-e3e4-4b2d-8654-19ce19c22512"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135225Z:b3abd139-e3e4-4b2d-8654-19ce19c22512"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:52:25 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11968"
+        ],
+        "x-ms-request-id": [
+          "31cc4bda-ae41-481b-a0de-a1d79bba38a4"
+        ],
+        "x-ms-correlation-request-id": [
+          "31cc4bda-ae41-481b-a0de-a1d79bba38a4"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135236Z:31cc4bda-ae41-481b-a0de-a1d79bba38a4"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:52:36 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11967"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-request-id": [
+          "f58d767f-49fc-47c9-ac92-698e2795d7d9"
+        ],
+        "x-ms-correlation-request-id": [
+          "f58d767f-49fc-47c9-ac92-698e2795d7d9"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135246Z:f58d767f-49fc-47c9-ac92-698e2795d7d9"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:52:46 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11966"
+        ],
+        "x-ms-request-id": [
+          "1b1a70ea-69f7-47a1-b81b-3568dfb030f3"
+        ],
+        "x-ms-correlation-request-id": [
+          "1b1a70ea-69f7-47a1-b81b-3568dfb030f3"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135258Z:1b1a70ea-69f7-47a1-b81b-3568dfb030f3"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:52:57 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11965"
+        ],
+        "x-ms-request-id": [
+          "207b0a2f-c6c3-4fea-82d2-ca2c930b3f1c"
+        ],
+        "x-ms-correlation-request-id": [
+          "207b0a2f-c6c3-4fea-82d2-ca2c930b3f1c"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135308Z:207b0a2f-c6c3-4fea-82d2-ca2c930b3f1c"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:53:07 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11964"
+        ],
+        "x-ms-request-id": [
+          "e67c15ae-3b9b-459b-b6c9-a7077b887203"
+        ],
+        "x-ms-correlation-request-id": [
+          "e67c15ae-3b9b-459b-b6c9-a7077b887203"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135318Z:e67c15ae-3b9b-459b-b6c9-a7077b887203"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:53:18 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11963"
+        ],
+        "x-ms-request-id": [
+          "3243e6ef-f832-4b1b-b1df-cd9901a078ed"
+        ],
+        "x-ms-correlation-request-id": [
+          "3243e6ef-f832-4b1b-b1df-cd9901a078ed"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135329Z:3243e6ef-f832-4b1b-b1df-cd9901a078ed"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:53:28 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11962"
+        ],
+        "x-ms-request-id": [
+          "9b93b8f9-572e-4ec2-9eee-b8ae1cef4d41"
+        ],
+        "x-ms-correlation-request-id": [
+          "9b93b8f9-572e-4ec2-9eee-b8ae1cef4d41"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135339Z:9b93b8f9-572e-4ec2-9eee-b8ae1cef4d41"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:53:39 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11961"
+        ],
+        "x-ms-request-id": [
+          "e34712f1-3007-4424-a49b-fcf6e29020a7"
+        ],
+        "x-ms-correlation-request-id": [
+          "e34712f1-3007-4424-a49b-fcf6e29020a7"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135350Z:e34712f1-3007-4424-a49b-fcf6e29020a7"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:53:49 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11960"
+        ],
+        "x-ms-request-id": [
+          "8f51ee4d-7b01-40bb-9747-23c7454534b4"
+        ],
+        "x-ms-correlation-request-id": [
+          "8f51ee4d-7b01-40bb-9747-23c7454534b4"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135400Z:8f51ee4d-7b01-40bb-9747-23c7454534b4"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:54:00 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11959"
+        ],
+        "x-ms-request-id": [
+          "0c136fcf-5ee5-4d2e-b86e-5292344dfff8"
+        ],
+        "x-ms-correlation-request-id": [
+          "0c136fcf-5ee5-4d2e-b86e-5292344dfff8"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135411Z:0c136fcf-5ee5-4d2e-b86e-5292344dfff8"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:54:10 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11958"
+        ],
+        "x-ms-request-id": [
+          "bf3558f9-747b-42d2-b549-47292c201b35"
+        ],
+        "x-ms-correlation-request-id": [
+          "bf3558f9-747b-42d2-b549-47292c201b35"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135421Z:bf3558f9-747b-42d2-b549-47292c201b35"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:54:20 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Location": [
+          "https://management.azure.com/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview"
+        ],
+        "Retry-After": [
+          "10"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11957"
+        ],
+        "x-ms-request-id": [
+          "5466211d-55a7-4318-b8b8-005bf5cb9dd0"
+        ],
+        "x-ms-correlation-request-id": [
+          "5466211d-55a7-4318-b8b8-005bf5cb9dd0"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135432Z:5466211d-55a7-4318-b8b8-005bf5cb9dd0"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:54:32 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 202
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11956"
+        ],
+        "x-ms-request-id": [
+          "c93c9e1c-7f06-4883-b6d3-37a9a74e7965"
+        ],
+        "x-ms-correlation-request-id": [
+          "c93c9e1c-7f06-4883-b6d3-37a9a74e7965"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135442Z:c93c9e1c-7f06-4883-b6d3-37a9a74e7965"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:54:42 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 204
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/locations/eastus/operationResults/1762444525019675208-deleteresource?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2xvY2F0aW9ucy9lYXN0dXMvb3BlcmF0aW9uUmVzdWx0cy8xNzYyNDQ0NTI1MDE5Njc1MjA4LWRlbGV0ZXJlc291cmNlP2FwaS12ZXJzaW9uPTIwMjAtMTItMDEtcHJldmlldw==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11955"
+        ],
+        "x-ms-request-id": [
+          "da437efe-7635-43db-90c4-d721323fc810"
+        ],
+        "x-ms-correlation-request-id": [
+          "da437efe-7635-43db-90c4-d721323fc810"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T135443Z:da437efe-7635-43db-90c4-d721323fc810"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:54:42 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 204
+    }
+  ],
+  "Names": {
+    "TestGetAndListOrders": [
+      "SdkRg6545",
+      "SdkOrderItem7196"
+    ]
+  },
+  "Variables": {
+    "SubscriptionId": "f100532e-a283-4523-8ff6-a8cebadb6e9d",
+    "SubId": "f100532e-a283-4523-8ff6-a8cebadb6e9d"
+  }
+}

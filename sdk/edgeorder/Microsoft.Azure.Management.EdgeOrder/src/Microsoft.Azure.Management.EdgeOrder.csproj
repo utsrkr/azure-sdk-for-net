@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<!-- Please do not move/edit code below this line -->
+	<Import Project="$(RepoEngPath)/mgmt/AzSdk.reference.props" />
+	<!-- Please do not move/edit code below this line -->
+
+	<PropertyGroup>
+		<PackageId>Microsoft.Azure.Management.EdgeOrder</PackageId>
+		<Description>Microsoft Azure Management EdgeOrder library</Description>
+		<AssemblyName>Microsoft.Azure.Management.EdgeOrder</AssemblyName>
+		<Version>1.0.0-beta.1</Version>
+		<PackageTags>EdgeOrder;Management;</PackageTags>
+    <PackageReleaseNotes>EdgeOrder public preview management SDK release</PackageReleaseNotes>
+	</PropertyGroup>
+	<PropertyGroup>
+		<TargetFrameworks>$(SdkTargetFx)</TargetFrameworks>
+		<RootNamespace>Microsoft.Azure.Management.EdgeOrder</RootNamespace>
+	</PropertyGroup>
+
+	<!-- Please do not move/edit code below this line -->
+	<Import Condition=" Exists('$([MSBuild]::GetPathOfFileAbove(AzSdk.RP.props))') " Project="$([MSBuild]::GetPathOfFileAbove('AzSdk.RP.props'))" />
+	<!-- Please do not move/edit code above this line -->
+</Project>

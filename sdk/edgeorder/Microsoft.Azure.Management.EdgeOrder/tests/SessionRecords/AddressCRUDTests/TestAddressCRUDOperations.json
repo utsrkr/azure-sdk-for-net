@@ -1,0 +1,467 @@
+{
+  "Entries": [
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourcegroups/SdkRg1798?api-version=2015-11-01",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Jlc291cmNlZ3JvdXBzL1Nka1JnMTc5OD9hcGktdmVyc2lvbj0yMDE1LTExLTAx",
+      "RequestMethod": "PUT",
+      "RequestBody": "{\r\n  \"location\": \"eastus\"\r\n}",
+      "RequestHeaders": {
+        "x-ms-client-request-id": [
+          "beafc2cb-803d-4ff4-b5fe-38238a883a5b"
+        ],
+        "Accept-Language": [
+          "en-US"
+        ],
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.Resources.ResourceManagementClient/1.0.0.0"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Content-Length": [
+          "28"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "x-ms-ratelimit-remaining-subscription-writes": [
+          "1197"
+        ],
+        "x-ms-request-id": [
+          "ea92ec1b-c88d-46a7-b545-a93cbbf36cff"
+        ],
+        "x-ms-correlation-request-id": [
+          "ea92ec1b-c88d-46a7-b545-a93cbbf36cff"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134705Z:ea92ec1b-c88d-46a7-b545-a93cbbf36cff"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:47:04 GMT"
+        ],
+        "Content-Length": [
+          "171"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
+        ]
+      },
+      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg1798\",\r\n  \"name\": \"SdkRg1798\",\r\n  \"location\": \"eastus\",\r\n  \"properties\": {\r\n    \"provisioningState\": \"Succeeded\"\r\n  }\r\n}",
+      "StatusCode": 201
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg1798/providers/Microsoft.EdgeOrder/addresses/SdkAddress4365?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Jlc291cmNlR3JvdXBzL1Nka1JnMTc5OC9wcm92aWRlcnMvTWljcm9zb2Z0LkVkZ2VPcmRlci9hZGRyZXNzZXMvU2RrQWRkcmVzczQzNjU/YXBpLXZlcnNpb249MjAyMC0xMi0wMS1wcmV2aWV3",
+      "RequestMethod": "PUT",
+      "RequestBody": "{\r\n  \"properties\": {\r\n    \"shippingAddress\": {\r\n      \"streetAddress1\": \"16 TOWNSEND ST\",\r\n      \"streetAddress2\": \"Unit 1\",\r\n      \"city\": \"San Francisco\",\r\n      \"stateOrProvince\": \"CA\",\r\n      \"country\": \"US\",\r\n      \"postalCode\": \"94107\",\r\n      \"companyName\": \"Microsoft\",\r\n      \"addressType\": \"Commercial\"\r\n    },\r\n    \"contactDetails\": {\r\n      \"contactName\": \"Public SDK Test\",\r\n      \"phone\": \"1234567890\",\r\n      \"phoneExtension\": \"1234\",\r\n      \"emailList\": [\r\n        \"testing@microsoft.com\"\r\n      ]\r\n    }\r\n  },\r\n  \"location\": \"eastus\"\r\n}",
+      "RequestHeaders": {
+        "x-ms-client-request-id": [
+          "2bf8bc7e-5454-45f8-9742-35d6828b3ceb"
+        ],
+        "Accept-Language": [
+          "en-US"
+        ],
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Content-Length": [
+          "553"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "x-ms-ratelimit-remaining-subscription-writes": [
+          "1199"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-request-id": [
+          "2a1a5bb5-0c46-4c31-b853-518f90356f05"
+        ],
+        "x-ms-correlation-request-id": [
+          "2a1a5bb5-0c46-4c31-b853-518f90356f05"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134713Z:2a1a5bb5-0c46-4c31-b853-518f90356f05"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:47:13 GMT"
+        ],
+        "Content-Length": [
+          "1124"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
+        ]
+      },
+      "ResponseBody": "{\r\n  \"properties\": {\r\n    \"shippingAddress\": {\r\n      \"streetAddress1\": \"16 TOWNSEND ST\",\r\n      \"streetAddress2\": \"Unit 1\",\r\n      \"city\": \"San Francisco\",\r\n      \"stateOrProvince\": \"CA\",\r\n      \"country\": \"US\",\r\n      \"postalCode\": \"94107\",\r\n      \"companyName\": \"Microsoft\",\r\n      \"addressType\": \"Commercial\"\r\n    },\r\n    \"contactDetails\": {\r\n      \"contactName\": \"Public SDK Test\",\r\n      \"phone\": \"1234567890\",\r\n      \"phoneExtension\": \"1234\",\r\n      \"emailList\": [\r\n        \"testing@microsoft.com\"\r\n      ]\r\n    }\r\n  },\r\n  \"systemData\": {\r\n    \"createdBy\": \"46f005c6-af25-4659-b0ab-11c6f1fca4c2\",\r\n    \"createdByType\": \"Application\",\r\n    \"createdAt\": \"2021-07-26T19:17:10.7155936+05:30\",\r\n    \"lastModifiedBy\": \"46f005c6-af25-4659-b0ab-11c6f1fca4c2\",\r\n    \"lastModifiedByType\": \"Application\",\r\n    \"lastModifiedAt\": \"2021-07-26T19:17:10.7155936+05:30\"\r\n  },\r\n  \"location\": \"eastus\",\r\n  \"tags\": {},\r\n  \"name\": \"SdkAddress4365\",\r\n  \"id\": \"/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg1798/providers/Microsoft.EdgeOrder/addresses/SdkAddress4365\",\r\n  \"type\": \"Microsoft.EdgeOrder/addresses\"\r\n}",
+      "StatusCode": 200
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg1798/providers/Microsoft.EdgeOrder/addresses/SdkAddress4365?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Jlc291cmNlR3JvdXBzL1Nka1JnMTc5OC9wcm92aWRlcnMvTWljcm9zb2Z0LkVkZ2VPcmRlci9hZGRyZXNzZXMvU2RrQWRkcmVzczQzNjU/YXBpLXZlcnNpb249MjAyMC0xMi0wMS1wcmV2aWV3",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "x-ms-client-request-id": [
+          "68c009d0-94df-49ba-85a0-3043d400f614"
+        ],
+        "Accept-Language": [
+          "en-US"
+        ],
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11999"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-request-id": [
+          "88c148ba-3519-4e13-9e11-3dedfa578d81"
+        ],
+        "x-ms-correlation-request-id": [
+          "88c148ba-3519-4e13-9e11-3dedfa578d81"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134714Z:88c148ba-3519-4e13-9e11-3dedfa578d81"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:47:13 GMT"
+        ],
+        "Content-Length": [
+          "1124"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
+        ]
+      },
+      "ResponseBody": "{\r\n  \"properties\": {\r\n    \"shippingAddress\": {\r\n      \"streetAddress1\": \"16 TOWNSEND ST\",\r\n      \"streetAddress2\": \"Unit 1\",\r\n      \"city\": \"San Francisco\",\r\n      \"stateOrProvince\": \"CA\",\r\n      \"country\": \"US\",\r\n      \"postalCode\": \"94107\",\r\n      \"companyName\": \"Microsoft\",\r\n      \"addressType\": \"Commercial\"\r\n    },\r\n    \"contactDetails\": {\r\n      \"contactName\": \"Public SDK Test\",\r\n      \"phone\": \"1234567890\",\r\n      \"phoneExtension\": \"1234\",\r\n      \"emailList\": [\r\n        \"testing@microsoft.com\"\r\n      ]\r\n    }\r\n  },\r\n  \"systemData\": {\r\n    \"createdBy\": \"46f005c6-af25-4659-b0ab-11c6f1fca4c2\",\r\n    \"createdByType\": \"Application\",\r\n    \"createdAt\": \"2021-07-26T19:17:10.7155936+05:30\",\r\n    \"lastModifiedBy\": \"46f005c6-af25-4659-b0ab-11c6f1fca4c2\",\r\n    \"lastModifiedByType\": \"Application\",\r\n    \"lastModifiedAt\": \"2021-07-26T19:17:10.7155936+05:30\"\r\n  },\r\n  \"location\": \"eastus\",\r\n  \"tags\": {},\r\n  \"name\": \"SdkAddress4365\",\r\n  \"id\": \"/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg1798/providers/Microsoft.EdgeOrder/addresses/SdkAddress4365\",\r\n  \"type\": \"Microsoft.EdgeOrder/addresses\"\r\n}",
+      "StatusCode": 200
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg1798/providers/Microsoft.EdgeOrder/addresses/SdkAddress4365?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Jlc291cmNlR3JvdXBzL1Nka1JnMTc5OC9wcm92aWRlcnMvTWljcm9zb2Z0LkVkZ2VPcmRlci9hZGRyZXNzZXMvU2RrQWRkcmVzczQzNjU/YXBpLXZlcnNpb249MjAyMC0xMi0wMS1wcmV2aWV3",
+      "RequestMethod": "PATCH",
+      "RequestBody": "{\r\n  \"properties\": {\r\n    \"shippingAddress\": {\r\n      \"streetAddress1\": \"16 TOWNSEND ST\",\r\n      \"streetAddress2\": \"Unit 1\",\r\n      \"city\": \"San Francisco\",\r\n      \"stateOrProvince\": \"CA\",\r\n      \"country\": \"US\",\r\n      \"postalCode\": \"94107\",\r\n      \"companyName\": \"Microsoft\",\r\n      \"addressType\": \"Commercial\"\r\n    },\r\n    \"contactDetails\": {\r\n      \"contactName\": \"Updated contact name\",\r\n      \"phone\": \"1234567890\",\r\n      \"phoneExtension\": \"1234\",\r\n      \"emailList\": [\r\n        \"testing@microsoft.com\"\r\n      ]\r\n    }\r\n  }\r\n}",
+      "RequestHeaders": {
+        "x-ms-client-request-id": [
+          "7d2ae18c-7d6c-4863-8bd7-137f14617f4f"
+        ],
+        "Accept-Language": [
+          "en-US"
+        ],
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Content-Length": [
+          "533"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "x-ms-ratelimit-remaining-subscription-writes": [
+          "1198"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-request-id": [
+          "5b30002f-e1ac-4458-a602-3ad557ce79d7"
+        ],
+        "x-ms-correlation-request-id": [
+          "5b30002f-e1ac-4458-a602-3ad557ce79d7"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134715Z:5b30002f-e1ac-4458-a602-3ad557ce79d7"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:47:14 GMT"
+        ],
+        "Content-Length": [
+          "1129"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
+        ]
+      },
+      "ResponseBody": "{\r\n  \"properties\": {\r\n    \"shippingAddress\": {\r\n      \"streetAddress1\": \"16 TOWNSEND ST\",\r\n      \"streetAddress2\": \"Unit 1\",\r\n      \"city\": \"San Francisco\",\r\n      \"stateOrProvince\": \"CA\",\r\n      \"country\": \"US\",\r\n      \"postalCode\": \"94107\",\r\n      \"companyName\": \"Microsoft\",\r\n      \"addressType\": \"Commercial\"\r\n    },\r\n    \"contactDetails\": {\r\n      \"contactName\": \"Updated contact name\",\r\n      \"phone\": \"1234567890\",\r\n      \"phoneExtension\": \"1234\",\r\n      \"emailList\": [\r\n        \"testing@microsoft.com\"\r\n      ]\r\n    }\r\n  },\r\n  \"systemData\": {\r\n    \"createdBy\": \"46f005c6-af25-4659-b0ab-11c6f1fca4c2\",\r\n    \"createdByType\": \"Application\",\r\n    \"createdAt\": \"2021-07-26T19:17:10.7155936+05:30\",\r\n    \"lastModifiedBy\": \"46f005c6-af25-4659-b0ab-11c6f1fca4c2\",\r\n    \"lastModifiedByType\": \"Application\",\r\n    \"lastModifiedAt\": \"2021-07-26T19:17:14.5366671+05:30\"\r\n  },\r\n  \"location\": \"eastus\",\r\n  \"tags\": {},\r\n  \"name\": \"SdkAddress4365\",\r\n  \"id\": \"/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg1798/providers/Microsoft.EdgeOrder/addresses/SdkAddress4365\",\r\n  \"type\": \"Microsoft.EdgeOrder/addresses\"\r\n}",
+      "StatusCode": 200
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/providers/Microsoft.EdgeOrder/addresses?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Byb3ZpZGVycy9NaWNyb3NvZnQuRWRnZU9yZGVyL2FkZHJlc3Nlcz9hcGktdmVyc2lvbj0yMDIwLTEyLTAxLXByZXZpZXc=",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "x-ms-client-request-id": [
+          "0f38cf65-c810-49bf-bb50-d4a25c25e559"
+        ],
+        "Accept-Language": [
+          "en-US"
+        ],
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11998"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-request-id": [
+          "0e3f9d66-8367-405a-9dbb-727a4b868956"
+        ],
+        "x-ms-correlation-request-id": [
+          "0e3f9d66-8367-405a-9dbb-727a4b868956"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134717Z:0e3f9d66-8367-405a-9dbb-727a4b868956"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:47:16 GMT"
+        ],
+        "Content-Length": [
+          "33340"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
+        ]
+      },
+      "ResponseBody": "{\r\n  \"value\": [\r\n    {\r\n      \"properties\": {\r\n        \"shippingAddress\": {\r\n          \"streetAddress1\": \"16 TOWNSEND ST\",\r\n          \"streetAddress2\": \"Unit 1\",\r\n          \"city\": \"San Francisco\",\r\n          \"stateOrProvince\": \"CA\",\r\n          \"country\": \"US\",\r\n          \"postalCode\": \"94107\",\r\n          \"companyName\": \"Microsoft\",\r\n          \"addressType\": \"Commercial\"\r\n        },\r\n        \"contactDetails\": {\r\n          \"contactName\": \"Updated contact name\",\r\n          \"phone\": \"1234567890\",\r\n          \"phoneExtension\": \"1234\",\r\n          \"emailList\": [\r\n            \"testing@microsoft.com\"\r\n          ]\r\n        }\r\n      },\r\n      \"systemData\": {\r\n        \"createdBy\": \"46f005c6-af25-4659-b0ab-11c6f1fca4c2\",\r\n        \"createdByType\": \"Application\",\r\n        \"createdAt\": \"2021-07-26T19:17:10.7155936+05:30\",\r\n        \"lastModifiedBy\": \"46f005c6-af25-4659-b0ab-11c6f1fca4c2\",\r\n        \"lastModifiedByType\": \"Application\",\r\n        \"lastModifiedAt\": \"2021-07-26T19:17:14.5366671+05:30\"\r\n      },\r\n      \"location\": \"eastus\",\r\n      \"tags\": {},\r\n      \"name\": \"SdkAddress4365\",\r\n      \"id\": \"/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg1798/providers/Microsoft.EdgeOrder/addresses/SdkAddress4365\",\r\n      \"type\": \"Microsoft.EdgeOrder/addresses\"\r\n    }\r\n  ]\r\n}",
+      "StatusCode": 200
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg1798/providers/Microsoft.EdgeOrder/addresses?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Jlc291cmNlR3JvdXBzL1Nka1JnMTc5OC9wcm92aWRlcnMvTWljcm9zb2Z0LkVkZ2VPcmRlci9hZGRyZXNzZXM/YXBpLXZlcnNpb249MjAyMC0xMi0wMS1wcmV2aWV3",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "x-ms-client-request-id": [
+          "df7cec5c-d28d-4bd1-9d69-01aa0509ca25"
+        ],
+        "Accept-Language": [
+          "en-US"
+        ],
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11997"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-request-id": [
+          "df316690-84d8-4442-a774-b5d5774ba26d"
+        ],
+        "x-ms-correlation-request-id": [
+          "df316690-84d8-4442-a774-b5d5774ba26d"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134718Z:df316690-84d8-4442-a774-b5d5774ba26d"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:47:17 GMT"
+        ],
+        "Content-Length": [
+          "1294"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
+        ]
+      },
+      "ResponseBody": "{\r\n  \"value\": [\r\n    {\r\n      \"properties\": {\r\n        \"shippingAddress\": {\r\n          \"streetAddress1\": \"16 TOWNSEND ST\",\r\n          \"streetAddress2\": \"Unit 1\",\r\n          \"city\": \"San Francisco\",\r\n          \"stateOrProvince\": \"CA\",\r\n          \"country\": \"US\",\r\n          \"postalCode\": \"94107\",\r\n          \"companyName\": \"Microsoft\",\r\n          \"addressType\": \"Commercial\"\r\n        },\r\n        \"contactDetails\": {\r\n          \"contactName\": \"Updated contact name\",\r\n          \"phone\": \"1234567890\",\r\n          \"phoneExtension\": \"1234\",\r\n          \"emailList\": [\r\n            \"testing@microsoft.com\"\r\n          ]\r\n        }\r\n      },\r\n      \"systemData\": {\r\n        \"createdBy\": \"46f005c6-af25-4659-b0ab-11c6f1fca4c2\",\r\n        \"createdByType\": \"Application\",\r\n        \"createdAt\": \"2021-07-26T19:17:10.7155936+05:30\",\r\n        \"lastModifiedBy\": \"46f005c6-af25-4659-b0ab-11c6f1fca4c2\",\r\n        \"lastModifiedByType\": \"Application\",\r\n        \"lastModifiedAt\": \"2021-07-26T19:17:14.5366671+05:30\"\r\n      },\r\n      \"location\": \"eastus\",\r\n      \"tags\": {},\r\n      \"name\": \"SdkAddress4365\",\r\n      \"id\": \"/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg1798/providers/Microsoft.EdgeOrder/addresses/SdkAddress4365\",\r\n      \"type\": \"Microsoft.EdgeOrder/addresses\"\r\n    }\r\n  ]\r\n}",
+      "StatusCode": 200
+    },
+    {
+      "RequestUri": "/subscriptions/f100532e-a283-4523-8ff6-a8cebadb6e9d/resourceGroups/SdkRg1798/providers/Microsoft.EdgeOrder/addresses/SdkAddress4365?api-version=2020-12-01-preview",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZjEwMDUzMmUtYTI4My00NTIzLThmZjYtYThjZWJhZGI2ZTlkL3Jlc291cmNlR3JvdXBzL1Nka1JnMTc5OC9wcm92aWRlcnMvTWljcm9zb2Z0LkVkZ2VPcmRlci9hZGRyZXNzZXMvU2RrQWRkcmVzczQzNjU/YXBpLXZlcnNpb249MjAyMC0xMi0wMS1wcmV2aWV3",
+      "RequestMethod": "DELETE",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "x-ms-client-request-id": [
+          "8de4717e-c191-43ab-8502-1e6ef0f47b1f"
+        ],
+        "Accept-Language": [
+          "en-US"
+        ],
+        "User-Agent": [
+          "FxVersion/4.6.30015.01",
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.19042.",
+          "Microsoft.Azure.Management.EdgeOrder.EdgeOrderManagementClient/1.0.0.beta.1"
+        ]
+      },
+      "ResponseHeaders": {
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Server": [
+          "Kestrel"
+        ],
+        "x-ms-ratelimit-remaining-subscription-deletes": [
+          "14999"
+        ],
+        "x-ms-request-id": [
+          "05cae69d-5f0b-4315-9e0f-7fc5977277f3"
+        ],
+        "x-ms-correlation-request-id": [
+          "05cae69d-5f0b-4315-9e0f-7fc5977277f3"
+        ],
+        "x-ms-routing-request-id": [
+          "SOUTHINDIA:20210726T134721Z:05cae69d-5f0b-4315-9e0f-7fc5977277f3"
+        ],
+        "Date": [
+          "Mon, 26 Jul 2021 13:47:20 GMT"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Content-Length": [
+          "0"
+        ]
+      },
+      "ResponseBody": "",
+      "StatusCode": 200
+    }
+  ],
+  "Names": {
+    "TestAddressCRUDOperations": [
+      "SdkRg1798",
+      "SdkAddress4365"
+    ]
+  },
+  "Variables": {
+    "SubscriptionId": "f100532e-a283-4523-8ff6-a8cebadb6e9d",
+    "SubId": "f100532e-a283-4523-8ff6-a8cebadb6e9d"
+  }
+}
