@@ -8,24 +8,11 @@
 namespace Azure.ResourceManager.EdgeOrder.Models
 {
     /// <summary> Package shipping details. </summary>
-    public partial class ShippingDetails
+    internal partial class ShippingDetails
     {
         /// <summary> Initializes a new instance of ShippingDetails. </summary>
         internal ShippingDetails()
         {
-        }
-
-        /// <summary> Initializes a new instance of ShippingDetails. </summary>
-        /// <param name="carrierName"> Name of the carrier. </param>
-        /// <param name="carrierDisplayName"> Carrier Name for display purpose. Not to be used for any processing. </param>
-        /// <param name="trackingId"> TrackingId of the package. </param>
-        /// <param name="trackingUrl"> TrackingUrl of the package. </param>
-        internal ShippingDetails(string carrierName, string carrierDisplayName, string trackingId, string trackingUrl)
-        {
-            CarrierName = carrierName;
-            CarrierDisplayName = carrierDisplayName;
-            TrackingId = trackingId;
-            TrackingUrl = trackingUrl;
         }
 
         /// <summary> Name of the carrier. </summary>

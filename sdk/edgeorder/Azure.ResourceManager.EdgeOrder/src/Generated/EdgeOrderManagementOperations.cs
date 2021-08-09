@@ -352,7 +352,7 @@ namespace Azure.ResourceManager.EdgeOrder
 
         /// <summary> This method provides the list of product families for the given subscription. </summary>
         /// <param name="productFamiliesRequest"> Filters for showing the product families. </param>
-        /// <param name="expand"> $expand is supported on configurations parameter for product, which provides details on the configurations for the product. </param>
+        /// <param name="expand"> $expand is supported on device details, forward shipping details and reverse shipping details parameters. Each of these can be provided as a comma separated list. Device Details for order item provides details on the devices of the product, Forward and Reverse Shipping details provide forward and reverse shipping details respectively. </param>
         /// <param name="skipToken"> $skipToken is supported on list of product families, which provides the next page in the list of product families. </param>
         /// <param name="cancellationToken"> The cancellation token to use. </param>
         /// <exception cref="ArgumentNullException"> <paramref name="productFamiliesRequest"/> is null. </exception>
@@ -398,7 +398,7 @@ namespace Azure.ResourceManager.EdgeOrder
 
         /// <summary> This method provides the list of product families for the given subscription. </summary>
         /// <param name="productFamiliesRequest"> Filters for showing the product families. </param>
-        /// <param name="expand"> $expand is supported on configurations parameter for product, which provides details on the configurations for the product. </param>
+        /// <param name="expand"> $expand is supported on device details, forward shipping details and reverse shipping details parameters. Each of these can be provided as a comma separated list. Device Details for order item provides details on the devices of the product, Forward and Reverse Shipping details provide forward and reverse shipping details respectively. </param>
         /// <param name="skipToken"> $skipToken is supported on list of product families, which provides the next page in the list of product families. </param>
         /// <param name="cancellationToken"> The cancellation token to use. </param>
         /// <exception cref="ArgumentNullException"> <paramref name="productFamiliesRequest"/> is null. </exception>

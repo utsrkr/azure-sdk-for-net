@@ -10,9 +10,9 @@ using Azure.Core;
 
 namespace Azure.ResourceManager.EdgeOrder.Models
 {
-    public partial class ShippingDetails
+    public partial class ForwardShippingDetails
     {
-        internal static ShippingDetails DeserializeShippingDetails(JsonElement element)
+        internal static ForwardShippingDetails DeserializeForwardShippingDetails(JsonElement element)
         {
             Optional<string> carrierName = default;
             Optional<string> carrierDisplayName = default;
@@ -41,7 +41,7 @@ namespace Azure.ResourceManager.EdgeOrder.Models
                     continue;
                 }
             }
-            return new ShippingDetails(carrierName.Value, carrierDisplayName.Value, trackingId.Value, trackingUrl.Value);
+            return new ForwardShippingDetails(carrierName.Value, carrierDisplayName.Value, trackingId.Value, trackingUrl.Value);
         }
     }
 }

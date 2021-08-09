@@ -45,8 +45,8 @@ namespace Azure.ResourceManager.EdgeOrder.Models
             Optional<StageDetails> currentStage = default;
             Optional<IReadOnlyList<StageDetails>> orderItemStageHistory = default;
             Optional<Preferences> preferences = default;
-            Optional<ShippingDetails> forwardShippingDetails = default;
-            Optional<ShippingDetails> reverseShippingDetails = default;
+            Optional<ForwardShippingDetails> forwardShippingDetails = default;
+            Optional<ReverseShippingDetails> reverseShippingDetails = default;
             Optional<IList<string>> notificationEmailList = default;
             Optional<string> cancellationReason = default;
             Optional<OrderItemCancellationEnum> cancellationStatus = default;
@@ -109,7 +109,7 @@ namespace Azure.ResourceManager.EdgeOrder.Models
                         property.ThrowNonNullablePropertyIsNull();
                         continue;
                     }
-                    forwardShippingDetails = ShippingDetails.DeserializeShippingDetails(property.Value);
+                    forwardShippingDetails = ForwardShippingDetails.DeserializeForwardShippingDetails(property.Value);
                     continue;
                 }
                 if (property.NameEquals("reverseShippingDetails"))
@@ -119,7 +119,7 @@ namespace Azure.ResourceManager.EdgeOrder.Models
                         property.ThrowNonNullablePropertyIsNull();
                         continue;
                     }
-                    reverseShippingDetails = ShippingDetails.DeserializeShippingDetails(property.Value);
+                    reverseShippingDetails = ReverseShippingDetails.DeserializeReverseShippingDetails(property.Value);
                     continue;
                 }
                 if (property.NameEquals("notificationEmailList"))
