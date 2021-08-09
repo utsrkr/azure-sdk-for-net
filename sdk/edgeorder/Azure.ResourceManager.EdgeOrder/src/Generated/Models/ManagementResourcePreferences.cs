@@ -16,13 +16,13 @@ namespace Azure.ResourceManager.EdgeOrder.Models
         }
 
         /// <summary> Initializes a new instance of ManagementResourcePreferences. </summary>
-        /// <param name="preferedManagementResourceId"> Customer prefered Management resource ARM ID. </param>
-        internal ManagementResourcePreferences(string preferedManagementResourceId)
+        /// <param name="preferredManagementResourceId"> Customer preferred Management resource ARM ID. </param>
+        internal ManagementResourcePreferences(string preferredManagementResourceId)
         {
-            PreferedManagementResourceId = preferedManagementResourceId;
+            PreferredManagementResourceId = preferredManagementResourceId;
         }
 
-        /// <summary> Customer prefered Management resource ARM ID. </summary>
-        public string PreferedManagementResourceId { get; set; }
+        /// <summary> Customer preferred Management resource ARM ID. </summary>
+        public string PreferredManagementResourceId { get; set; }
     }
 }

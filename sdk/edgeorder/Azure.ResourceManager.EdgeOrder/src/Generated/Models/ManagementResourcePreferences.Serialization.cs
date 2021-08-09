@@ -15,26 +15,26 @@ namespace Azure.ResourceManager.EdgeOrder.Models
         void IUtf8JsonSerializable.Write(Utf8JsonWriter writer)
         {
             writer.WriteStartObject();
-            if (Optional.IsDefined(PreferedManagementResourceId))
+            if (Optional.IsDefined(PreferredManagementResourceId))
             {
-                writer.WritePropertyName("preferedManagementResourceId");
-                writer.WriteStringValue(PreferedManagementResourceId);
+                writer.WritePropertyName("preferredManagementResourceId");
+                writer.WriteStringValue(PreferredManagementResourceId);
             }
             writer.WriteEndObject();
         }
 
         internal static ManagementResourcePreferences DeserializeManagementResourcePreferences(JsonElement element)
         {
-            Optional<string> preferedManagementResourceId = default;
+            Optional<string> preferredManagementResourceId = default;
             foreach (var property in element.EnumerateObject())
             {
-                if (property.NameEquals("preferedManagementResourceId"))
+                if (property.NameEquals("preferredManagementResourceId"))
                 {
-                    preferedManagementResourceId = property.Value.GetString();
+                    preferredManagementResourceId = property.Value.GetString();
                     continue;
                 }
             }
-            return new ManagementResourcePreferences(preferedManagementResourceId.Value);
+            return new ManagementResourcePreferences(preferredManagementResourceId.Value);
         }
     }
 }

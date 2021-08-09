@@ -47,7 +47,7 @@ namespace Azure.ResourceManager.EdgeOrder.Models
         /// <param name="returnStatus"> Describes whether the orderItem is returnable or not. </param>
         /// <param name="managementRpDetails"> parent RP details. </param>
         /// <param name="error"> Top level error for the job. </param>
-        internal OrderItemDetails(ProductDetails productDetails, OrderItemType orderItemType, StageDetails currentStage, IReadOnlyList<StageDetails> orderItemStageHistory, Preferences preferences, ShippingDetails forwardShippingDetails, ShippingDetails reverseShippingDetails, IList<string> notificationEmailList, string cancellationReason, OrderItemCancellationEnum? cancellationStatus, ActionStatusEnum? deletionStatus, string returnReason, OrderItemReturnEnum? returnStatus, object managementRpDetails, ErrorDetail error)
+        internal OrderItemDetails(ProductDetails productDetails, OrderItemType orderItemType, StageDetails currentStage, IReadOnlyList<StageDetails> orderItemStageHistory, Preferences preferences, ForwardShippingDetails forwardShippingDetails, ReverseShippingDetails reverseShippingDetails, IList<string> notificationEmailList, string cancellationReason, OrderItemCancellationEnum? cancellationStatus, ActionStatusEnum? deletionStatus, string returnReason, OrderItemReturnEnum? returnStatus, object managementRpDetails, ErrorDetail error)
         {
             ProductDetails = productDetails;
             OrderItemType = orderItemType;
@@ -77,9 +77,9 @@ namespace Azure.ResourceManager.EdgeOrder.Models
         /// <summary> Customer notification Preferences. </summary>
         public Preferences Preferences { get; set; }
         /// <summary> Forward Package Shipping details. </summary>
-        public ShippingDetails ForwardShippingDetails { get; }
+        public ForwardShippingDetails ForwardShippingDetails { get; }
         /// <summary> Reverse Package Shipping details. </summary>
-        public ShippingDetails ReverseShippingDetails { get; }
+        public ReverseShippingDetails ReverseShippingDetails { get; }
         /// <summary> Additional notification email list. </summary>
         public IList<string> NotificationEmailList { get; }
         /// <summary> Cancellation reason. </summary>
